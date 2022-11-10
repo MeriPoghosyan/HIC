@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/visitSecond.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<script src="/scripts/snippet-javascript-console.min.js?v=1"></script>
+<header>
+    <div class="logo"><img class="logo" src="../../../photos/logo.png" alt="img">
+        <p>HIC</p>
+    </div>
+    <div class="info">
+        <img src="../../../photos/doc.png" alt="]">
+        <p>Name Surname</p>
+    </div>
+    <div class="settings"><input class="dropbtn" type="image" src="../../../photos/gear.png">
+        <div class="dropdown-content">
+            <a href="change Password.html">Password</a>
+            <a href="../../LogIn/html/Practitioner Login.html">Log Out</a>
+        </div>
+    </div>
+
+</header>
+
+<body>
+    <form method="post" action="visitThird.html">
+        <div class="photos">
+            <div class="patient">
+                <img src="../../../photos/patient.png" alt="">
+                <div class="info">
+                    <p>Full Name: Yahif Khadar</p>
+                    <p>Gender: .....</p>
+                    <p>Date of Birth: .....</p>
+                    <p>Phone Number: .....</p>
+                    <p>Address: .....</p>
+                </div>
+            </div>
+        </div>
+        <div class="texts">
+            <p class="reg">Registration</p>
+            <p class="font">Diagnose</p>
+            <div class="select">
+                <script src="../js/jquery.min.js"></script>
+                <link href="../css/select2.min.css" rel="stylesheet" />
+                <script src="../js/Select/select2.min.js"></script>
+                <select class="form-control js-example-tags" id="select">
+                <option selected="selected">Diagnose Code (ICD-10)</option>
+                <option>A00</option>
+                <option>A01</option>
+                <option>A02</option>
+                <option>A03</option>
+                <option>A04</option>
+                <option>A05</option>
+                <option>A06</option>
+            </select>
+                <script type="text/javascript">
+                    $(".js-example-tags").select2({
+                        tags: true
+                    });
+                </script>
+            </div>
+            <p class="font1">Diagnose Status</p>
+            <textarea class="" id="Diag" style="resize:none" name="description" required placeholder="Description"></textarea>
+            <p class="font2">Diagnose Clinical Status</p>
+            <textarea class="" id="Diag_cl" style="resize:none" name="description" required placeholder="Description"></textarea>
+        </div>
+        <div class="next">
+            <button type="submit" id="submit" class="submit">Next</button>
+        </div>
+    </form>
+    <div class="buttons">
+        <a href="../html/visitFirst.html">
+            <div class="back">
+                <input class="back" type="image" src="../../../photos/backHome1.png" style="width: 20px; height: 20px; margin-top: 0;">
+            </div>
+        </a>
+    </div>
+</body>
+<script src="../js/visitSecond.data.js"></script>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/select2.min.js"></script>
+<script src="../js/mainpage.js"></script>
+</html>

@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #e7f5fc7a;
+    overflow-x: hidden;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .logo-container p {
+    display: inline;
+    font-family: Quicksand Regular, arial;
+    color: #0c90d0;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .logo-container {
+    background-image: url(./pattern.png);
+    background-position: right;
+    background-size: cover;
+    height: 12em;
+    width: 31em;
+  }
+  
+  .doctor-container {
+    background-image: url(./background_blue.jpg);
+    background-size: cover;
+    position: relative;
+    top: -15px;
+    border-radius: 20px;
+    height: 28em;
+    width: 31em;
+    text-align: center;
+  }
+  
+  .doctor-container > img {
+    position: relative;
+    height: 120%;
+    top: -50px;
+  }
+  
+  .reg {
+    font-family: Quicksand Regular, arial;
+    font-size: 35px;
+    color: #0c90d0;
+  }
+  
+  .relatedPerson p {
+    font-size: 20px;
+    color: #0c90d0;
+    font-family: "Quicksand Regular", arial;
+    margin-top: 25px;
+  }
+  
+
+  
+  .contacts > p {
+    font-size: 20px;
+    color: #0c90d0;
+    font-family: "Quicksand Regular", arial;
+    margin-top: 25px;
+  }
+  .contacts span {
+    margin-right: 20px;
+  }
+  
+  .contacts input {
+    height: 30px;
+    border: 1px solid #838996ff;
+    border-radius: 3px !important;
+  }
+  .phone{
+    width: 443px;
+  }
+  
+  .note > p {
+    font-size: 20px;
+    color: #0c90d0;
+    font-family: "Quicksand Regular", arial;
+    margin-top: 25px;
+  }
+  
+  .note input  {
+    
+    border: 1px solid #838996ff !important;
+    border-radius: 3px ;
+    margin-right: 45px;
+
+  }
+
+  #exampleFormControlTextarea1{
+      border: 1px solid #838996ff !important;
+  }
+
+
+  .next{
+    margin-right: 30px;
+    
+  }
+  
+  
+  @media (max-width: 767px) {
+    .right-col {
+      margin-top: 40px;
+    }
+  }
+  

@@ -1,0 +1,960 @@
+@media only screen and (min-width: 1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow-y: hidden;
+        background-color: #e7f5fc7a;
+    }
+
+    header {
+        position: absolute;
+        z-index: 500;
+        align-items: center;
+        display: flex;
+
+    }
+
+    header p {
+        font-size: 35px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+    }
+
+    main {
+        margin-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main .left {
+        max-height: 600px;
+        flex-basis: 500px;
+        flex-shrink: 0;
+    }
+
+    main .left .pat {
+        max-height: 190px;
+        max-width: 450px;
+    }
+
+    main .left .pat img {
+        width: 520px;
+
+    }
+
+    main .left .bl {
+        background-size: cover;
+    }
+
+    main .left .bl img {
+        width: 520px;
+        height: 490px;
+        border-radius: 20px;
+    }
+
+    main .left .doc {
+        margin-top: -555px;
+        margin-left: -60px;
+    }
+
+    main .left .doc img {
+        height: 580px;
+    }
+
+    main .right {
+        height: 600px;
+        margin-left: -20px;
+        margin-top: 30px;
+        flex-basis: auto;
+        flex-shrink: 0;
+        flex-grow: 1;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+
+    main .right p.reg {
+        margin-top: 20px;
+        font-size: 35px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+
+    main .right .telecom {
+        font-size: 20px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+
+    main .right .telecom1 input {
+        border-radius: 10px;
+        margin-bottom: 15px;
+        height: 40px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        margin-right: 50px;
+    }
+
+    main .right .type {
+        font-size: 20px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    main .right .type1 input {
+        border-radius: 10px;
+        margin-bottom: 50px;
+        height: 40px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        margin-right: 30px;
+    }
+
+    #type1 {
+        font-size: 10px;
+        color: #0C90D0;
+    }
+    .noterror{
+        color: green;
+        margin-left:270px;
+        margin-top: -20px;
+    }
+    .error{
+        color: #fd643e;
+        margin-left:0px;
+        margin-top: 10px;
+    }
+    .Normal_class{
+        margin-left:0px;
+        margin-top: 10px;
+        color: rgba(0, 0, 0 ,0);
+    }
+    .Normal_class2{
+        margin-left:270px;
+        margin-top: -20px;
+        color: rgba(0, 0, 0 ,0);
+    }
+
+    #br {
+        color: #0C90D0;
+        margin-left: 17px;
+        font-size: 10px;
+    }
+
+    .check1 input {
+        margin-top: 20px;
+    }
+
+    main .pass input {
+        border-radius: 10px;
+        width: 245px;
+        margin-top: 5px;
+        height: 35px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        margin-left: 0px;
+        margin-right: 20px;
+
+    }
+
+    main .pass2 input {
+        border-radius: 10px;
+        height: 40px;
+        padding: 5px 5px;
+    }
+    .pass_title{
+        color: #0C90D0;
+    }
+
+    .button {
+        margin-top: 50px;
+        position: absolute;
+    }
+
+    button {
+        background-image: linear-gradient(to right, #73DFE6FF, #11A9C6FF);
+        color: floralwhite;
+        width: 80px;
+        height: 25px;
+        font-size: 15px;
+        font-family: Quicksand Regular, arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        position: absolute;
+        margin-left: 550px;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+    main :focus {
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+
+    main .right .pass :focus {
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+
+    main .right .pass2 :focus {
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+
+    .Script {
+        margin-top: 500px;
+        margin-left: 500px;
+    }
+    .button_div3 {
+        margin-top: 530px;
+        margin-left: -550px;
+    }
+
+    .button3 {
+        width: 20px;
+        height: 20px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow-y: hidden;
+        background-color: #e7f5fc7a;
+    }
+
+    header {
+        position: absolute;
+        z-index: 500;
+        align-items: center;
+        display: flex;
+
+    }
+
+    header p {
+        font-size: 30px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .logo {
+        width: 80px;
+        height: 80px;
+        margin-left: 10px;
+    }
+
+    main {
+        margin-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main .left {
+        max-height: 600px;
+        flex-basis: 500px;
+        flex-shrink: 0;
+    }
+
+    main .left .pat {
+        max-height: 190px;
+        max-width: 450px;
+    }
+
+    main .left .pat img {
+        width: 400px;
+
+    }
+
+    main .left .bl {
+        background-size: cover;
+    }
+
+    main .left .bl img {
+        width: 400px;
+        height: 450px;
+        border-radius: 20px;
+    }
+
+    main .left .doc {
+        margin-top: -500px;
+        margin-left: -80px;
+    }
+
+    main .left .doc img {
+        height: 530px;
+    }
+
+    main .right {
+        height: 600px;
+        margin-left: 460px;
+        margin-top: -500px;
+        flex-basis: auto;
+        flex-shrink: 0;
+        flex-grow: 1;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+
+    main .right p.reg {
+        margin-top: 20px;
+        font-size: 35px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+
+    main .right .telecom {
+        font-size: 20px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+
+    main .right .telecom1 input {
+        width: 400px;
+        margin-bottom: 15px;
+        height: 40px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 10px;
+        margin-right: 50px;
+    }
+
+    main .right .type {
+        font-size: 20px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    main .right .type1 input {
+        width: 400px;
+        margin-bottom: 15px;
+        height: 40px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 10px;
+        margin-right: 50px;
+    }
+
+    #type1 {
+        font-size: 10px;
+        color: #0C90D0;
+    }
+    .noterror{
+        color: green;
+        margin-left:225px;
+        margin-top: -20px;
+    }
+    .error{
+        color: #fd643e;
+        margin-left:0px;
+        margin-top: 10px;
+    }
+    .Normal_class{
+        margin-left:0px;
+        margin-top: 10px;
+        color: rgba(0, 0, 0, 0);
+    }
+    .Normal_class2{
+        margin-left:200px;
+        margin-top: -20px;
+        color: rgba(0, 0, 0, 0);
+    }
+
+    #br {
+        color: #0C90D0;
+        margin-left: 17px;
+        font-size: 10px;
+    }
+
+    .check1 input {
+        margin-top: 80px;
+    }
+
+    main .pass input {
+        margin-top: 30px;
+        height: 35px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 10px;
+        margin-left: 0px;
+        margin-right: 50px;
+
+    }
+
+    main .pass2 input {
+        border-radius: 10px;
+        height: 35px;
+        padding: 5px 5px;
+    }
+    .pass_title{
+        margin-bottom: -20px;
+        color: #0C90D0;
+    }
+
+    .button {
+        margin-top: 100px;
+        position: relative;
+    }
+
+    button {
+        background-image: linear-gradient(to right, #73DFE6FF, #11A9C6FF);
+        color: floralwhite;
+        width: 80px;
+        height: 25px;
+        font-size: 15px;
+        font-family: Quicksand Regular, arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        position: absolute;
+        right: 50px;
+        bottom: 40px;
+        margin-right: 20px;
+    }
+
+    button:hover {
+        background-color: #2db9ff;
+        cursor: pointer;
+    }
+
+    main :focus {
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+
+    main .right .pass :focus {
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+
+    main .right .pass2 :focus {
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+
+    .Script {
+        margin-top: 500px;
+        margin-left: 500px;
+    }
+    .button_div3 {
+        margin-top: -25px;
+        margin-left: -450px;
+    }
+
+    .button3 {
+        width: 20px;
+        height: 20px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow-y: hidden;
+        background-color: #e7f5fc7a;
+    }
+
+    header {
+        position: absolute;
+        z-index: 500;
+        align-items: center;
+        display: flex;
+
+    }
+
+    header p{
+        font-size: 20px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+    }
+
+    main {
+        margin-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main .left {
+        max-height: 500px;
+        flex-basis: 400px;
+        flex-shrink: 0;
+
+
+    }
+
+    main .left .pat {
+
+        max-height: 130px;
+        max-width: 500px;
+    }
+    main .left .pat img{
+        width: 400px;
+    }
+    main .left .bl {
+        background-size: cover;
+    }
+
+    main .left .bl img {
+        width: 400px;
+        height: 450px;
+        border-radius: 20px;
+    }
+
+    main .left .doc {
+        margin-top: -490px;
+        margin-left: -70px;
+    }
+
+    main .left .doc img {
+        width: 560px;
+        height: 500px;
+    }
+
+    main .right {
+        height: 600px;
+        margin-left: 450px;
+        margin-top: -450px;
+        flex-basis: auto;
+        flex-shrink: 0;
+        flex-grow: 1;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+
+    main .right p.reg {
+        margin-top: 20px;
+        font-size: 35px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+
+    main .right .telecom {
+        font-size: 20px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+
+    main .right .telecom1 input {
+        width: 400px;
+        margin-bottom: 15px;
+        height: 40px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius:10px;
+        margin-right: 50px;
+    }
+
+    main .right .type {
+        font-size: 20px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    main .right .type1 input {
+        width: 400px;
+        margin-bottom: 15px;
+        height: 40px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 10px;
+
+    }
+
+    #type1 {
+
+        font-size: 10px;
+        color: #0C90D0;
+    }
+    .noterror{
+        color: green;
+        margin-left:220px;
+        margin-top: -20px;
+    }
+    .error{
+        color: #fd643e;
+        margin-left:0px;
+        margin-top: 10px;
+    }
+    .Normal_class{
+        margin-left:0px;
+        margin-top: 10px;
+        color: rgba(0, 0, 0 ,0);
+    }
+    .Normal_class2{
+        margin-left:270px;
+        margin-top: -20px;
+        color: rgba(0, 0, 0 ,0);
+    }
+
+    #br {
+        color: #0C90D0;
+        margin-left: 17px;
+        font-size: 10px;
+    }
+
+    .check1 input {
+        margin-top: 20px;
+    }
+
+    main .pass input {
+        width: 185px;
+        margin-top: 30px;
+        height: 35px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 10px;
+        margin-left: 0px;
+        margin-right: 30px;
+
+    }
+
+    main .pass2 input {
+        border-radius: 10px;
+        height: 35px;
+        padding: 5px 5px;
+    }
+    .pass_title{
+        margin-bottom: -20px;
+        color: #0C90D0;
+    }
+
+    .button {
+        position: relative;
+    }
+
+    button {
+        background-image: linear-gradient(to right, #73DFE6FF, #11A9C6FF);
+        color: floralwhite;
+        width: 80px;
+        height: 35px;
+        font-size: 15px;
+        font-family: Quicksand Regular, arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        position: absolute;
+        right: 50px;
+        bottom: -50px;
+        margin-bottom: 100px;
+        margin-right: 10px;
+    }
+
+    button:hover {
+        background-color: #2db9ff;
+        cursor: pointer;
+    }
+
+    main :focus {
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+
+    main .right .pass :focus {
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+
+    main .right .pass2 :focus {
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+
+    .Script {
+        margin-top: 500px;
+        margin-left: 500px;
+    }
+    .button_div3 {
+        margin-top: -150px;
+        margin-left: 450px;
+    }
+
+    .button3 {
+        width: 20px;
+        height: 20px;
+    }
+}
+@media only screen and (max-width: 722px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-color: #e7f5fc7a;
+    }
+
+    header {
+        position: absolute;
+        z-index: 500;
+        align-items: center;
+        display: flex;
+
+    }
+
+    header p {
+        font-size: 20px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+    }
+
+    main {
+        margin-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main .left {
+        max-height: 400px;
+        flex-basis: 400px;
+        flex-shrink: 0;
+
+
+    }
+
+    main .left .pat {
+        display: none;
+        max-height: 130px;
+        max-width: 500px;
+    }
+
+    main .left .pat img {
+        display: none;
+        width: 380px;
+
+    }
+
+    main .left .bl {
+        height: 320px;
+        background-size: cover;
+    }
+
+    main .left .bl img {
+        display: none;
+        width: 380px;
+        height: 450px;
+        border-radius: 20px;
+    }
+
+    main .left .doc img {
+        display: none;
+        width: 550px;
+        height: 500px;
+        margin-top: -360px;
+        margin-left: -70px;
+
+    }
+
+    main .right {
+        height: 600px;
+        margin-left: 25px;
+        margin-top: 80px;
+        flex-basis: auto;
+        flex-shrink: 0;
+        flex-grow: 1;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+
+    main .right p.reg {
+        margin-top: 20px;
+        font-size: 35px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+
+    main .right .telecom {
+        font-size: 20px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+
+    main .right .telecom1 input {
+        margin-bottom: 15px;
+        height: 40px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 10px;
+        margin-right: 50px;
+    }
+
+    main .right .type {
+        font-size: 20px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    main .right .type1 input {
+        margin-bottom: 30px;
+        height: 40px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 10px;
+        margin-right: 50px;
+    }
+
+    #type1 {
+        font-size: 10px;
+        color: #0C90D0;
+    }
+
+    .noterror {
+        color: green;
+        margin-left: 220px;
+        margin-top: -20px;
+    }
+
+    .error {
+        color: #fd643e;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .Normal_class {
+        margin-left: 0px;
+        margin-top: 10px;
+        color: rgba(0, 0, 0, 0);
+    }
+
+    .Normal_class2 {
+        margin-left: 270px;
+        margin-top: -20px;
+        color: rgba(0, 0, 0, 0);
+    }
+
+    #br {
+        color: #0C90D0;
+        margin-left: 17px;
+        font-size: 10px;
+    }
+
+    .check1 input {
+        margin-top: 80px;
+    }
+
+    .pass input {
+        width: 170px;
+        height: 80px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 10px;
+        margin-left: 100px;
+
+    }
+
+    .pass2 input {
+        border-radius: 10px;
+        width: 170px;
+        height: 35px;
+        margin-left: -250px;
+        padding: 5px 5px;
+    }
+    .pass_title{
+        margin-bottom: -20px;
+        color: #0C90D0;
+    }
+
+    .button {
+        position: relative;
+    }
+
+    button {
+        background-image: linear-gradient(to right, #73DFE6FF, #11A9C6FF);
+        color: floralwhite;
+        width: 80px;
+        height: 25px;
+        font-size: 15px;
+        font-family: Quicksand Regular, arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        position: absolute;
+        right: 100px;
+        bottom: -5px;
+        margin-bottom: 50px;
+        left: 350px;
+    }
+
+    button:hover {
+        background-color: #2db9ff;
+        cursor: pointer;
+    }
+
+    main :focus {
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+
+    main .right .pass :focus {
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+
+    main .right .pass2 :focus {
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+
+    .Script {
+        margin-top: 500px;
+        margin-left: 500px;
+    }
+    .button_div3 {
+        margin-top: -130px;
+        margin-left: 170px;
+    }
+
+    .button3 {
+        width: 20px;
+        height: 20px;
+    }
+}

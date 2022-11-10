@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link  href="../css/registrationStart.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
+    
+</head>
+<body>
+
+<header>
+    <img class="logo" src="../../../photos/logo.png" alt="img">
+    <p>HIC</p>
+</header>
+ <main>
+            <div class="left" >
+                
+                <div class="up"><img src="../../../photos/pattern.png" alt="" ></div>
+                <div class="down"> <img src="../../../photos/background_blue.jpg" alt=""></div>
+                <div class="doc"><img src="../../../photos/patientDoctor.v2.png" alt="" style="height:max-content;"></div>
+            </div>
+            <div class="right">
+                <p class="reg">Registration</p>
+                 <form action="registrationThird.html" id="myForm">
+                                      
+                    <div class="language">
+                        <p>Native Language</p>
+                        <select id="languages" name="language" required>
+                            <option value="-1" selected>Select Language</option>
+                            <option value="hy" id="lang">Armenian - հայերեն</option>
+                            <option value="fr" id="lang">French - français</option>
+                            <option value="zh-TW" id="lang">Chinese (Traditional) - 中文（繁體）</option>
+                            <option value="en" id="lang">English</option>
+                            <option value="de" id="lang">German - Deutsch</option>
+                            <option value="es-ES" id="lang">Spanish (Spain) - español (España)</option>
+                            <option value="ka" id="lang">Georgian - ქართული</option>
+                           </select>
+                     </div>
+                    <div class="address" >
+                    <p class="address"> Address</p>
+                    <div class="titles">
+                        <p>Type</p>
+                        <p>Country</p>
+                        <p>City</p>
+                        <p>State</p>
+                        <p>District</p>
+                        <p>Street</p>
+                        <p>Postal code</p>
+                  
+                    </div>   
+                                    
+                    <div class="inputs">
+                        <div>
+                        <select class="typeofaddress" name="type" id="typeofaddress">
+                            <option value="-1" selected>Select type of address</option>
+                            <option value="Physical"> Physical</option>
+                            <option value="Postal"> Postal</option>
+                            <option value="Both" > Both</option>
+                        </select>
+                    </div>
+                       <div> <select name="country" required aria-placeholder="Select a country" class="country" id="country"></select></div>
+                        <div class="city"><input type="text" name = "city" required placeholder="City" id="city" ></div>
+                        <div><input type="text" name = "state" required placeholder="State" id="state"></div>
+                        <div><input type="text" name = "district" required placeholder="District" id="district"></div>
+                        <div><input type="text" name = "street" required placeholder="Street Line" id="street" ></div>
+                        <div><input class="postal"  id="postalcode" type="text" name = "postalcode" required placeholder="Postal Code" ></div>
+                    </div> 
+                    
+                </div>
+               
+                
+               <div class="button1">
+                <div class="nextbutton">
+                    <button type="submit" onclick="return validate()">Next</button>
+                </div> 
+            </div>
+        </form>
+        <div class="button2">
+            <div class="backbutton1">
+                <input class="back" type="image"  onclick="document.location='registrationFirst.html'" src="../../../photos/back.png" style="width: 20px; height: 20px; margin-top: 0;">
+            </div>
+        </div>
+        </div>
+         
+               
+        </main>
+</div>
+</body>
+</html>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
+<script src="../js/address.js"></script>
+<script src="../js/registrationSecond.js"></script>

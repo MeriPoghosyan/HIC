@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link  href="../css/registrationStart.css" rel="stylesheet">
+    
+</head>
+<body>
+
+<header>
+    <img class="logo" src="../../../photos/logo.png" alt="img">
+    <p>HIC</p>
+</header>
+ <main>
+            <div class="left" >
+                
+                <div class="up"><img src="../../../photos/pattern.png" alt="" ></div>
+                <div class="down"> <img src="../../../photos/background_blue.jpg" alt=""></div>
+                <div class="doc"><img src="../../../photos/patientDoctor.v2.png" alt="" style="height:max-content;"></div>
+            </div>
+            <div class="right">
+                <p class="reg">Registration</p>
+                 <form id="myForm" action="registrationSecond.html">
+                    <div class="pic">
+                        <p class="img">Image(jpg, png, pdf)</p>
+                        <input type="file" name="pic" required style="margin-bottom: 20px;" id="patientPicture"> 
+                    </div>
+                    <div class="name">
+                        <p class="name">Patient's full name</p>
+                        <input type="text" name = "name" required placeholder="Name" class="namee" id="name">
+                        <input type="text" name = "surname" required placeholder="Surname" id="surname" >
+                    </div>
+                    <div class="gender">
+                        <p class="gend">Gender</p>
+                        <input type="radio" value="male" id="malechoice" name="gender" checked >
+                        <label for="malechoice">Male</label>
+                        <input type="radio" value="female" id="femalechoice" name="gender" >
+                        <label for="femalechoice">Female</label>
+                        <input type="radio" value="other" id="otherchoice" name="gender">
+                        <label for="otherchoice">Other</label>
+                     </div>
+                    <div class="date">
+                        <p class="date" for="date">Birthdate</p>
+                        <input type="date" id="start" name="birthdate" value="2000-01-01" min="1900-01-01">
+                      </div>
+                      <div  class="martial">
+                        <p class="mart">Martial</p>
+                        <input type="radio" value="single" required name="martial" id="single"checked>
+                        <label for="single">Single</label>
+                        <input type="radio" value="married" name="martial" id="married" >
+                        <label for="married">Married</label>
+                        <input type="radio" value="widowed" name="martial" id="widowed" >
+                        <label for="widowed">Widowed</label> 
+                        <input type="radio" value="divorced" name="martial" id="divorced">
+                        <label for="divorced">Divorced</label>
+                    </div>
+                    <div class="birth">
+                        <p class="birth">Multiple Birth</p>
+                        <input type="radio" value="no" checked name="multiplebirth" id="no"checked>
+                        <label for="no">No</label>
+                        <input type="radio" value="yes" name="multiplebirth" id="yes">
+                        <label for="yes">Yes</label>
+                    </div>
+                    
+                    <div class="button1">             
+                        <div class="nextbutton" >
+                            <button  type="submit" onclick="return validate()">Next</button>
+                        </div> 
+             </div>
+                </form>
+                <div class="button2">
+                <div class="backbutton1">
+                    <input class="back" type="image"  onclick="document.location='mainPage.html'" src="../../../photos/backHome.png" style="width: 20px; height: 20px; margin-top: 0;">
+                </div>
+            </div>
+            </div>
+        </main>
+
+
+
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../js/registrationFirst.js"></script>
+</html>

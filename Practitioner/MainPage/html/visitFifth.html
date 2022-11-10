@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/visitStyle345.css">
+    
+</head>
+
+<header>
+    <div class="logo"><img class="logo" src="../../../photos/logo.png" alt="img">
+    <p>HIC</p>
+    </div> 
+    <div class="info"> 
+        <img src="../../../photos/doc.png" alt="">
+        <p>Name Surname</p>
+    </div>
+    <div class="settings dropdown"><input class="dropbtn" type="image" src="../../../photos/gear.png">
+        <div class="dropdown-content">
+            <a href="change Password.html">Password</a>
+            <a href="../../LogIn/html/Practitioner Login.html">Log Out</a>
+          </div>
+    </div>
+
+</header>
+<body>
+    <form id="final-form" name="myForm" method="get">
+        <div class="left">
+            <div class="patient">
+                <img src="../../../photos/patient.png" alt="">
+                    <div class="info">
+                        <p>Full Name: Yahif Khadar</p>
+                        <p>Gender: .....</p>
+                        <p>Date of Birth: .....</p>
+                        <p>Phone Number: .....</p>
+                        <p>Address: .....</p>
+                    </div>
+            </div>
+        </div>
+        <div class="right">
+            <p class="reg">Registration</p>
+            <p class="font">Medication</p>
+                <textarea id="medication" style="resize:none" name="description" required placeholder="Description"></textarea>
+            <p class="font">Medication status</p>
+            <div class="select">
+                <script src="../js/jquery.min.js"></script>
+                <link href="../css/select2.min.css" rel="stylesheet"/>
+                <script src="../js/select2.min.js"></script>
+                <select id="medicationstatus" class="form-control js-example-tags">
+                    <option selected="selected">Choose Status</option>
+                    <option>Inability to urinate</option>
+                    <option>Inability to keep liquids down thus requiring IV hydration</option> 
+                    <option>Inability to control pain</option> 
+                    <option>Unexpected surgical bleeding</option>
+                    <option>Unstable vital signs</option>
+                    <option>Inability to safely ambulate after spinal anesthesia</option>
+                    <option>Unusual reaction to the surgical procedure or anesthesia (e.g. difficulty awakening, drug reaction, or other complication)</option>
+                </select>
+                <script type="text/javascript">
+                    $(".js-example-tags").select2({
+                    tags: true
+                    });
+                </script>
+            </div>
+            
+            <div class="date">
+                <p class="font">Medication Last Update</p>
+                <input type="date" name="date" id="date">
+            </div>
+                <div class="buttons">
+                    <div class="nextbutton">
+                        <button>Finish</button>
+                    </div>
+                </div>
+        </div>
+    </form>
+    <a href="../html/visitFourth.html">
+        <div class="out">
+            <div class="backbutton">
+                <input class="back" type="image" src="../../../photos/backHome1.png" style="width: 20px; height: 20px; margin-top: 0;">
+            </div>
+        </div>
+    </a>
+    <script src="../js/visitFifthForm.js"></script>
+    <script src="../js/visitTotalForm.js"></script>
+</body>
+</html>

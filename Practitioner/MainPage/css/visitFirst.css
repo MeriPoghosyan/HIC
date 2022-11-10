@@ -1,0 +1,941 @@
+@media only screen and (min-width: 1200px) {
+
+    * {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body, html {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 100%;
+        margin: 0;
+    }
+
+    .pat {
+        background-image: url("../../../photos/pat.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .log p {
+        margin-top: -60px;
+        margin-left: 120px;
+        font-size: 35px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px; border-width: 1px;
+        margin-left: 20px;
+    }
+
+    .HIC_class {
+        margin-top: -50px;
+    }
+
+    .logo_div {
+        background-color: #ABDBF1;
+    }
+
+    .logo_div {
+        height: 100px;
+    }
+
+    .woman_div {
+        margin-top: -80px;
+    }
+
+    .woman {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        margin-left: 1000px;
+    }
+
+    .h1_div {
+        margin-top: -20px;
+        color: #0C90D0;
+        font-size: 8px;
+        margin-left: 1060px;
+    }
+
+    .h2_div {
+        margin-top: -17.5px;
+        color: #0C90D0;
+        font-size: 10px;
+        margin-left: 1120px;
+    }
+
+    .button_div {
+        margin-top: -23px;
+        margin-left: 1190px;
+    }
+
+    .button {
+        width: 26px;
+        height: 25px;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 80px;
+        box-shadow: 0px 8px 16px 0px rgba(31, 184, 255, 0.5);
+        z-index: 1;
+        margin-left: -40px;
+    }
+    .dropdown-content a {
+        color: #053a55;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+        background-color:white;
+    }
+    .dropdown:focus .dropdown-content {
+        display: block;
+        background-color:white;
+    }
+
+    .back_div {
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+
+    .background {
+        border-radius: 30px;
+        width: 300px;
+        height: 560px;
+    }
+
+    .man_div {
+        margin-left: 43px;
+        margin-top: -550px;
+    }
+
+    .man {
+        border-radius: 30px;
+    }
+    .man_div2{
+        color:#0C90D0;
+        margin-left: 45px;
+    }
+
+    .p3_class {
+        font-size: 18px;
+        margin-left: 15px;
+        margin-top: 13px;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .p4_class {
+        font-size: 18px;
+        margin-left: 15px;
+        margin-top: 13px;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .p5_class {
+        font-size: 18px;
+        margin-left: 15px;
+        margin-top: 13px;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .p6_class {
+        font-size: 18px;
+        margin-left: 15px;
+        margin-top: 13px;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .p7_class {
+        font-size: 20px;
+        margin-left: 15px;
+        margin-top: 13px;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .Reg_div {
+        margin-top: -530px;
+        margin-left: 400px;
+    }
+
+    .reg {
+        font-size: 40px;
+        margin-left: 300px;
+        font-family: Quicksand Regular, arial, serif;
+        color: #0C90D0;
+    }
+
+    .Sub_div {
+        margin-top: 10px;
+    }
+
+    .Sub {
+        font-size: 30px;
+        font-family: Quicksand Regular, arial, serif;
+        color: #03426B;
+    }
+
+    .Main_Comp {
+
+        margin-top: 15px;
+        font-family: Roboto Regilar;
+        color: #03426B;
+    }
+
+    .in_class {
+        border-radius: 10px;
+        border-color: white;
+        padding-left: 10px;
+        margin-top: 10px;
+        height: 60px;
+    }
+
+    :focus {
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+
+    .button1 {
+        margin-right: 500px;
+        float: right;
+        background-image: linear-gradient(to right, #73DFE6FF, #11A9C6FF);;
+        color: floralwhite;
+        width: 80px;
+        height: 25px;
+        font-size: 15px;
+        font-family: 'Quicksand Bold', arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        left: 20px;
+        margin-top: 15px;
+    }
+    .button1:hover{
+        cursor: pointer;
+        background-image: linear-gradient(to right, rgb(124, 230, 240),rgb(12, 202, 240));
+
+
+    }
+
+    .button_div3 {
+        margin-top: 15px;
+        margin-left: 400px;
+    }
+
+    .button3 {
+        width: 20px;
+        height: 20px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    * {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body, html {
+        height: 50%;
+        margin: 0;
+    }
+
+    .pat {
+        background-image: url("../../../photos/pat.jpg");
+        height: 400%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .log p {
+        margin-top: -33px;
+        margin-left: 60px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .logo {
+        width:40px;
+        height: 40px;
+        margin-left: 20px;
+    }
+    .HIC_class {
+        margin-top: -10px;
+    }
+
+    .logo_div {
+        background-color: #ABDBF1;
+    }
+
+    .logo_div {
+        height: 50px;
+    }
+
+    .woman_div {
+        margin-top: -35px;
+    }
+
+    .woman {
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        margin-left: 810px;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 80px;
+        box-shadow: 0px 8px 16px 0px rgba(31, 184, 255, 0.5);
+        z-index: 1;
+        margin-left: -40px;
+    }
+    .dropdown-content a {
+        color: #053a55;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+        background-color:white;
+    }
+    .dropdown:focus .dropdown-content {
+        display: block;
+        background-color:white;
+    }
+
+    .h1_div {
+        margin-top: -18px;
+        color: #0C90D0;
+        font-size: 6px;
+        margin-left: 850px;
+    }
+
+    .h2_div {
+        margin-top: -14px;
+        color: #0C90D0;
+        font-size: 8px;
+        margin-left: 900px;
+    }
+    .button_div {
+        margin-top: -15px;
+        margin-left: 960px;
+    }
+
+    .button {
+        width: 15px;
+        height: 15px;
+    }
+    .back_div {
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+
+    .background {
+        border-radius: 30px;
+        width: 250px;
+        height: 450px;
+    }
+
+    .man_div {
+        margin-left: 40px;
+        margin-top: -440px;
+    }
+    .man_div2{
+        color:#0C90D0;
+        margin-left: 35px;
+    }
+    .man {
+        border-radius: 30px;
+        width: 230px;
+        height: 280px;
+    }
+    .p3_class {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .p4_class {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .p5_class {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .p6_class {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .p7_class {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .Reg_div {
+        margin-top: -400px;
+        margin-left: 320px;
+    }
+
+    .reg {
+        font-size: 30px;
+        margin-left: 100px;
+        font-family: Quicksand Regular, arial, serif;
+        color: #0C90D0;
+    }
+
+    .Sub_div {
+        margin-top: 10px;
+    }
+
+    .Sub {
+        font-size: 20px;
+        font-family: Quicksand Regular, arial, serif;
+        color: #03426B;
+    }
+
+    .Main_Comp {
+
+        margin-top: 2px;
+        font-family: Roboto Regilar;
+        color: #03426B;
+    }
+
+    .in_class {
+        width: 390px;
+        border-radius: 10px;
+        border-color: white;
+        padding-left: 10px;
+        margin-top: 10px;
+        height: 60px;
+    }
+
+    :focus {
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+
+    .button1 {
+        margin-right: 200px;
+        float: right;
+        background-image: linear-gradient(to right, #73DFE6FF, #11A9C6FF);;
+        color: floralwhite;
+        width: 80px;
+        height: 25px;
+        font-size: 15px;
+        font-family: 'Quicksand Bold', arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        left: 20px;
+        margin-top: 20px;
+    }
+
+    .button_div3 {
+        margin-top: 20px;
+        margin-left: 330px;
+    }
+
+    .button3 {
+        width: 10px;
+        height: 10px;
+    }
+
+}
+@media only screen and (max-width: 992px) {
+    * {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body, html {
+        height: 50%;
+        margin: 0;
+    }
+
+    .pat {
+        background-image: url("../../../photos/pat.jpg");
+        height: 400%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .log p {
+        margin-top: -33px;
+        margin-left: 60px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .logo {
+        width:40px;
+        height: 40px;
+        margin-left: 20px;
+    }
+    .HIC_class {
+        margin-top: -10px;
+    }
+
+    .logo_div {
+        background-color: #ABDBF1;
+    }
+
+    .logo_div {
+        height: 50px;
+    }
+
+    .woman_div {
+        margin-top: -35px;
+    }
+
+    .woman {
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        margin-left: 630px;
+    }
+    .h1_div {
+        margin-top: -18px;
+        color: #0C90D0;
+        font-size: 6px;
+        margin-left: 670px;
+    }
+
+    .h2_div {
+        margin-top: -14px;
+        color: #0C90D0;
+        font-size: 8px;
+        margin-left: 710px;
+    }
+    .button_div {
+        margin-top: -15px;
+        margin-left: 770px;
+    }
+
+    .button {
+        width: 15px;
+        height: 15px;
+    }
+    .back_div {
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+
+    .background {
+        border-radius: 30px;
+        width: 250px;
+        height: 450px;
+    }
+
+    .man_div {
+        margin-left: 40px;
+        margin-top: -440px;
+    }
+    .man_div2{
+        color:#0C90D0;
+        margin-left: 40px;
+    }
+
+    .man {
+        border-radius: 30px;
+        width: 230px;
+        height: 280px;
+    }
+    .p3_class {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .p4_class {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .p5_class {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .p6_class {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .p7_class {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-top: 5px;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .Reg_div {
+        margin-top: -400px;
+        margin-left: 320px;
+    }
+
+    .reg {
+        font-size: 30px;
+        margin-left: 100px;
+        font-family: Quicksand Regular, arial, serif;
+        color: #0C90D0;
+    }
+
+    .Sub_div {
+        margin-top: 10px;
+    }
+
+    .Sub {
+        font-size: 20px;
+        font-family: Quicksand Regular, arial, serif;
+        color: #03426B;
+    }
+
+    .Main_Comp {
+
+        margin-top: 2px;
+        font-family: Roboto Regilar;
+        color: #03426B;
+    }
+
+    .in_class {
+        width: 390px;
+        border-radius: 10px;
+        border-color: white;
+        padding-left: 10px;
+        margin-top: 10px;
+        height: 60px;
+    }
+
+    :focus {
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+
+    .button1 {
+        margin-right: 100px;
+        float: right;
+        background-image: linear-gradient(to right, #73DFE6FF, #11A9C6FF);;
+        color: floralwhite;
+        width: 80px;
+        height: 25px;
+        font-size: 15px;
+        font-family: 'Quicksand Bold', arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        left: 20px;
+        margin-top: 20px;
+    }
+
+    .button_div3 {
+        margin-top: 20px;
+        margin-left: 330px;
+    }
+
+    .button3 {
+        width: 10px;
+        height: 10px;
+    }
+
+}
+@media only screen and (max-width: 772px) {
+    * {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body, html {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 150%;
+        margin: 0;
+    }
+
+    .pat {
+        background-image: url("../../../photos/pat.jpg");
+        height: 55%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .log p {
+        margin-top: -28px;
+        margin-left: 70px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    .HIC_class {
+        margin-top: -10px;
+    }
+
+    .logo_div {
+        background-color: #ABDBF1;
+    }
+
+    .logo_div {
+        height: 50px;
+    }
+
+    .woman_div {
+        margin-top: -45px;
+    }
+
+    .woman {
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        margin-left: 320px;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 80px;
+        box-shadow: 0px 8px 16px 0px rgba(31, 184, 255, 0.5);
+        z-index: 1;
+        margin-left: -80px;
+    }
+    .dropdown-content a {
+        color: #053a55;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+        background-color:white;
+    }
+    .dropdown:focus .dropdown-content {
+        display: block;
+        background-color:white;
+    }
+
+
+    .h1_div {
+        margin-top: -18px;
+        color: #0C90D0;
+        font-size: 6px;
+        margin-left: 370px;
+    }
+
+    .h2_div {
+        margin-top: -13px;
+        color: #0C90D0;
+        font-size: 7px;
+        margin-left: 410px;
+    }
+
+    .button_div {
+        margin-top: -15px;
+        margin-left: 465px;
+    }
+
+    .button {
+        width: 15px;
+        height: 15px;
+    }
+
+    .back_div {
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .background {
+        border-radius: 30px;
+        width: 480px;
+        height: 100px;
+    }
+
+    .man_div {
+        display: none;
+        margin-left: 40px;
+        margin-top: -440px;
+    }
+
+
+    .man {
+        border-radius: 30px;
+        width: 230px;
+        height: 280px;
+    }
+
+    .p3_class {
+        color: #0C90D0;
+        font-size: 13px;
+        margin-left: 35px;
+        margin-top: -85px;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .p4_class {
+        color: #0C90D0;
+        font-size: 13px;
+        margin-left: 35px;
+        margin-top: 20px;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .p5_class {
+        color: #0C90D0;
+        font-size: 13px;
+        margin-left: 190px;
+        margin-top: -55px;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .p6_class {
+        color: #0C90D0;
+        font-size: 13px;
+        margin-left: 190px;
+        margin-top: 30px;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .p7_class {
+        color: #0C90D0;
+        font-size: 13px;
+        margin-left: 325px;
+        margin-top: -60px;
+        font-family: Quicksand Regular, arial, serif;
+    }
+
+    .Reg_div {
+        margin-top: 80px;
+        margin-left: 60px;
+    }
+
+    .reg {
+        font-size: 30px;
+        margin-left: 100px;
+        font-family: Quicksand Regular, arial, serif;
+        color: #0C90D0;
+    }
+
+    .Sub_div {
+        margin-top: 10px;
+    }
+
+    .Sub {
+        font-size: 20px;
+        font-family: Quicksand Regular, arial, serif;
+        color: #03426B;
+    }
+
+    .Main_Comp {
+
+        margin-top: 2px;
+        font-family: Roboto Regilar;
+        color: #03426B;
+    }
+
+    .in_class {
+        width: 390px;
+        border-radius: 10px;
+        border-color: white;
+        padding-left: 10px;
+        margin-top: 10px;
+        height: 40px;
+    }
+
+    :focus {
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+
+    .button1 {
+        margin-right: 25px;
+        float: right;
+        background-image: linear-gradient(to right, #73DFE6FF, #11A9C6FF);;
+        color: floralwhite;
+        width: 80px;
+        height: 25px;
+        font-size: 15px;
+        font-family: 'Quicksand Bold', arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        left: 20px;
+        margin-top: 20px;
+    }
+
+    .button_div3 {
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    .button3 {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+
+
+
+
+
+

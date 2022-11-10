@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/pracStyle1.css">
+    <link rel="stylesheet" href="../css/intlTelInput.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="../../../photos/logo.png" alt="img">
+        <p>HIC</p>
+    </header>
+    <main>
+        <div class="left">
+            <div class="up"><img  src="../../../photos/up.png" alt=""></div>
+            <div class="down"><img  src="../../../photos/BackGround_Green.png" alt=""></div>
+            <div class="doc"> <img  src="../../../photos/bjishk.png" alt=""></div>
+        </div>
+        <form id="myForm" name="myForm" method="get" action="PractPage2.html" >
+        <div class="right">
+            <p class="reg">Registration</p>
+                <div class="pic" id="picture">
+                    <p class="img">Image(jpg, png, pdf)</p>
+                    <input type="file" id="pic" name="fileinput" style="margin-bottom: 20px;"> 
+                </div>
+                <div class="name">
+                    <p class="name">Patient's full name</p>
+                    <input type="text" id="name" name = "name" required placeholder="Name" >
+                    <input type="text" id="surname" name = "surname" required placeholder="Surname">
+                </div>
+                <div class="gender">
+                    <p class="gend">Gender</p>
+                    <input type="radio"  value="male" id="malechoice" name="gender" checked>
+                    <label for="malechoice">Male</label>
+                    <input type="radio" value="female" id="femalechoice" name="gender" >
+                    <label for="femalechoice">Female</label>
+                    <input type="radio" value="other" id="otherchoice" name="gender" >
+                    <label for="otherchoice">Other</label>
+                </div>
+                <div class="dateOf">
+                    <p class="dat">Date of Birth</p>
+                    <input type="date" id="date" name="dateofbirth" id="dateofbirth">
+                </div>
+                <div class="phone">
+                    <p class="ph">Phone Number With Country Code</p>
+                    <input type="tel" id="phone" class="phone1" name="phone" required placeholder="Phone" onkeypress='validate(event)'>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                </div>
+                <div class="language">
+                        <p class="lang">Native Language</p>
+                        <div onsubmit="FormSubmit(this);">
+                            <select id="language" name="language" required style="height:30px; width: 250px;" onchange="DropDownChanged(this);">
+                            <option>Select Language</option>
+                            <option value="hy">Armenian - հայերեն</option>
+                            <option value="fr">French - français</option>
+                            <option value="zh-TW">Chinese (Traditional) - 中文（繁體）</option>
+                            <option value="en">English</option>
+                            <option value="de">German - Deutsch</option>
+                            <option value="es-ES">Spanish (Spain) - español (España)</option>
+                            <option value="ka">Georgian - ქართული</option>
+                           </select>
+                        </div>
+                     </div>
+                    <div class="buttons">
+                        <div class="nextbutton">
+                            <button type="submit" value="Submit" onclick="return validatation()">Next</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="out">
+                    <div class="backbutton">
+                        <input class="back" type="image" src="../../../photos/backHome1.png" style="width: 20px; height: 20px; margin-top: 0;">
+                    </div>
+                </div>
+        </div>
+    </main>
+    <script src="../js/validationForm.js"></script>
+    <script src="../js/Form1.js"></script>
+    <script src="../js/language.js"></script>
+    <script src="../js/intlTelInput.js"></script>
+    <script src="../js/phone.js"></script>
+    <script src="../js/js.js"></script>
+</body>
+</html>

@@ -1,0 +1,1083 @@
+@media only screen and (min-width: 1200px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body, html{
+        height: 100%;
+        margin: 0;
+        background-image: url("../../../photos/wall.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        overflow-y: hidden;
+    }
+
+    header{
+        background-color: #ABDBF1;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        margin-bottom: 200px;
+        width: 100%;
+        height: 100px;
+    }
+    .logo{
+        align-items: center;
+        width: 250px;
+
+    }
+    header .logo p{
+        margin-top: 32px;
+        font-size: 35px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: 'Quicksand Bold', arial;
+    }
+
+    .logo img {
+        float: left;
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+    }
+    header .info{
+        margin-left: 800px;
+        width: 200px;
+    }
+    header .info img{
+        float: left;
+        width: 50px;
+        height: 50px;
+        border: 1px solid #868585;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    header .info p{
+        margin-top: 16px;
+        color: #0085c7;
+        font-size: 18px;
+        font-family: 'Quicksand Bold', arial;
+    }
+    header .settings{
+        width: 30px;
+        height:30px;
+    }
+    header .settings input{
+        width: inherit;
+        margin-left: 30px;
+        height: inherit;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 80px;
+        box-shadow: 0px 8px 16px 0px rgba(31, 184, 255, 0.5);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: #053a55;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+        background-color:white;
+    }
+    .dropdown:focus .dropdown-content {
+        display: block;
+        background-color:white;
+    }
+
+
+
+    .left{
+        margin-left: 30px;
+        margin-top: 110px;
+        padding: 15px 25px;
+        border-radius: 30px;
+        width: 300px;
+        height: 530px;
+        background-color: #ABDBF1;
+    }
+
+    .patient img{
+        border-radius: 30px;
+        height: 300px;
+    }
+    .patient .info{
+        margin-left: -10px;
+        /* margin-top: 5px; */
+    }
+    .patient .info p{
+        font-size: 17px;
+        margin-left: 15px;
+        margin-top: 20px;
+        color: #0085c7;
+        font-family: Quicksand Regular, arial, serif;
+    }
+    .right{
+        margin-top: -530px;
+        margin-left: 400px;
+    }
+    .right p.reg{
+        margin-bottom: 40px;
+        font-size: 40px;
+        margin-left: 300px;
+        font-family: Quicksand Regular, arial, serif;
+        color: #0C90D0;
+    }
+    .right p.font, .date p{
+        font-size: 25px;
+        font-family: Quicksand Regular, arial, serif;
+        color: #03426B;
+        margin-bottom: 15px;
+    }
+    .right  input{
+        margin-bottom: 20px;
+        height: 100px;
+        width: 300px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-right: 45px;
+    }
+    .right input:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    .right input:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    .right input::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 14px;
+    }
+    .right  textarea{
+        margin-bottom: 20px;
+        height: 100px;
+        width: 300px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-right: 45px;
+    }
+    .right textarea:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    .right textarea:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    .right textarea::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 14px;
+    }
+
+    .right .select select{
+        margin-bottom: 20px;
+        margin-top: 15px;
+        height: 30px;
+        width: 300px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-right: 45px;
+    }
+    .right .select select:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    .right .select select:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    .right .select select::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 14px;
+    }
+
+
+    .right .date {
+        display: block;
+        padding-top: 15px;
+    }
+    .right .date input {
+        height: 30px;
+        border: 1px solid rgba(131, 137, 150, 0.562);
+        border-radius: 3px;
+        background-color: #fff;
+        padding: 5px 5px;
+        margin-right: 100px;
+        font-family: 'Quicksand Bold', arial;
+
+    }
+    .right .date input:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    .right .date input:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    .right .date input::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 14px;
+    }
+
+
+    .right .buttons{
+        margin-left: 600px;
+        display: flex;
+        margin-top: 25px;
+    }
+
+    .nextbutton button{
+        float: right;
+        background-image: linear-gradient(to right, #73DFE6FF,#11A9C6FF);;
+        color: floralwhite;
+        width: 80px;
+        height: 25px;
+        font-size: 15px;
+        font-family: 'Quicksand Bold', arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        left: 20px;
+    }
+    .nextbutton button:hover{
+        background-image: linear-gradient(to right, rgb(124, 230, 240),rgb(12, 202, 240));
+        cursor: pointer;
+    }
+    .out {
+        display: flex;
+        margin-top: -25px;
+        margin-left: 400px;
+    }.backbutton{
+         margin-right: 600px;}
+    .buttons.backbutton input{
+        float: left;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body, html{
+        height: 100%;
+        margin: 0;
+        background-image: url("../../../photos/wall.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        overflow-y: hidden;
+    }
+
+    header{
+        background-color: #ABDBF1;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        margin-bottom: 200px;
+        width: 100%;
+        height: 100px;
+    }
+    .logo{
+        align-items: center;
+        width: 250px;
+
+    }
+    header .logo p{
+        margin-top: 25px;
+        font-size: 35px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: 'Quicksand Bold', arial;
+    }
+
+    .logo img {
+        float: left;
+        width: 80px;
+        height: 80px;
+        margin-left: 5px;
+    }
+    header .info{
+        margin-left: 520px;
+        width: 200px;
+    }
+    header .info img{
+        float: left;
+        width: 50px;
+        height: 50px;
+        border: 1px solid #868585;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    header .info p{
+        margin-top: 16px;
+        color: #0085c7;
+        font-size: 15px;
+        font-family: 'Quicksand Bold', arial;
+    }
+    header .settings{
+        width: 25px;
+        height:25px;
+    }
+    header .settings input{
+        width: inherit;
+        margin-left: -10px;
+        height: inherit;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 80px;
+        box-shadow: 0px 8px 16px 0px rgba(31, 184, 255, 0.5);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: #053a55;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+        background-color:white;
+    }
+    .dropdown:focus .dropdown-content {
+        display: block;
+        background-color:white;
+    }
+    .left{
+        margin-left: 30px;
+        margin-top: 110px;
+        padding: 15px 25px;
+        border-radius: 30px;
+        width: 300px;
+        height: 530px;
+        background-color: #ABDBF1;
+    }
+
+    .patient img{
+        border-radius: 30px;
+        height: 300px;
+    }
+    .patient .info{
+        margin-left: -10px;
+        /* margin-top: 5px; */
+    }
+    .patient .info p{
+        font-size: 17px;
+        margin-left: 15px;
+        margin-top: 20px;
+        color: #0085c7;
+        font-family: Quicksand Regular, arial, serif;
+    }
+    .right{
+        margin-top: -530px;
+        margin-left: 400px;
+    }
+    .right p.reg{
+        margin-bottom: 40px;
+        font-size: 40px;
+        margin-left: 300px;
+        font-family: Quicksand Regular, arial, serif;
+        color: #0C90D0;
+    }
+    .right p.font, .date p{
+        font-size: 25px;
+        font-family: Quicksand Regular, arial, serif;
+        color: #03426B;
+        margin-bottom: 15px;
+    }
+    .right  input{
+        margin-bottom: 20px;
+        height: 100px;
+        width: 300px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-right: 45px;
+    }
+    .right input:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    .right input:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    .right input::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 14px;
+    }
+    .right  textarea{
+        margin-bottom: 20px;
+        height: 100px;
+        width: 300px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-right: 45px;
+    }
+    .right textarea:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    .right textarea:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    .right textarea::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 14px;
+    }
+
+    .right .select select{
+        margin-bottom: 20px;
+        margin-top: 15px;
+        height: 30px;
+        width: 300px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-right: 45px;
+    }
+    .right .select select:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    .right .select select:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    .right .select select::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 14px;
+    }
+
+
+    .right .date {
+        display: block;
+        padding-top: 15px;
+    }
+    .right .date input {
+        height: 30px;
+        border: 1px solid rgba(131, 137, 150, 0.562);
+        border-radius: 3px;
+        background-color: #fff;
+        padding: 5px 5px;
+        margin-right: 100px;
+        font-family: 'Quicksand Bold', arial;
+
+    }
+    .right .date input:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    .right .date input:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    .right .date input::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 14px;
+    }
+
+
+    .right .buttons{
+        margin-left: 400px;
+        display: flex;
+        margin-top: 25px;
+    }
+
+    .nextbutton button{
+        float: right;
+        background-image: linear-gradient(to right, #73DFE6FF,#11A9C6FF);;
+        color: floralwhite;
+        width: 80px;
+        height: 25px;
+        font-size: 15px;
+        font-family: 'Quicksand Bold', arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        left: 20px;
+    }
+    .nextbutton button:hover{
+        background-image: linear-gradient(to right, rgb(124, 230, 240),rgb(12, 202, 240));
+        cursor: pointer;
+    }
+    .out {
+        display: flex;
+        margin-top: -25px;
+        margin-left: 400px;
+    }.backbutton{
+         margin-right: 600px;}
+    .buttons.backbutton input{
+        float: left;
+    }
+
+}
+@media only screen and (max-width: 992px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body, html{
+        height: 100%;
+        margin: 0;
+        background-image: url("../../../photos/wall.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        overflow-y: hidden;
+    }
+
+    header{
+        background-color: #ABDBF1;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        margin-bottom: 200px;
+        width: 100%;
+        height: 100px;
+    }
+    .logo{
+        align-items: center;
+        width: 250px;
+
+    }
+    header .logo p{
+        margin-left: 70px;
+        margin-top: 20px;
+        font-size: 25px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: 'Quicksand Bold', arial;
+    }
+
+    .logo img {
+        float: left;
+        width: 60px;
+        height: 60px;
+        margin-left: 5px;
+    }
+    header .info{
+        margin-left: 300px;
+        width: 200px;
+    }
+    header .info img{
+        float: left;
+        width: 50px;
+        height: 50px;
+        border: 1px solid #868585;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    header .info p{
+        margin-left: 20px;
+        margin-top: 18px;
+        color: #0085c7;
+        font-size: 15px;
+        font-family: 'Quicksand Bold', arial;
+    }
+    header .settings{
+        width: 25px;
+        height:25px;
+    }
+    header .settings input{
+        width: inherit;
+        margin-left: -5px;
+        height: inherit;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 80px;
+        box-shadow: 0px 8px 16px 0px rgba(31, 184, 255, 0.5);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: #053a55;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+        background-color:white;
+    }
+    .dropdown:focus .dropdown-content {
+        display: block;
+        background-color:white;
+    }
+    .left{
+        margin-left: 30px;
+        margin-top: 110px;
+        padding: 15px 25px;
+        border-radius: 30px;
+        width: 280px;
+        height: 510px;
+        background-color: #ABDBF1;
+    }
+
+    .patient img{
+        border-radius: 30px;
+        height: 280px;
+    }
+    .patient .info{
+        margin-left: -10px;
+        /* margin-top: 5px; */
+    }
+    .patient .info p{
+        font-size: 17px;
+        margin-left: 15px;
+        margin-top: 20px;
+        color: #0085c7;
+        font-family: Quicksand Regular, arial, serif;
+    }
+    .right{
+        margin-top: -510px;
+        margin-left: 350px;
+    }
+    .right p.reg{
+        margin-bottom: 40px;
+        font-size: 35px;
+        margin-left: 100px;
+        font-family: Quicksand Regular, arial, serif;
+        color: #0C90D0;
+    }
+    .right p.font, .date p{
+        font-size: 25px;
+        font-family: Quicksand Regular, arial, serif;
+        color: #03426B;
+        margin-bottom: 15px;
+    }
+    .right  input{
+        margin-bottom: 20px;
+        height: 100px;
+        width: 300px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-right: 45px;
+    }
+    .right input:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    .right input:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    .right input::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 14px;
+    }
+    .right  textarea{
+        margin-bottom: 20px;
+        height: 100px;
+        width: 300px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-right: 45px;
+    }
+    .right textarea:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    .right textarea:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    .right textarea::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 14px;
+    }
+
+    .right .select select{
+        margin-bottom: 20px;
+        margin-top: 15px;
+        height: 30px;
+        width: 300px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-right: 45px;
+    }
+    .right .select select:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    .right .select select:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    .right .select select::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 14px;
+    }
+
+
+    .right .date {
+        display: block;
+        padding-top: 15px;
+    }
+    .right .date input {
+        height: 30px;
+        border: 1px solid rgba(131, 137, 150, 0.562);
+        border-radius: 3px;
+        background-color: #fff;
+        padding: 5px 5px;
+        margin-right: 100px;
+        font-family: 'Quicksand Bold', arial;
+
+    }
+    .right .date input:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    .right .date input:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    .right .date input::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 14px;
+    }
+
+
+    .right .buttons{
+        margin-left: 300px;
+        display: flex;
+        margin-top: 25px;
+    }
+
+    .nextbutton button{
+        float: right;
+        background-image: linear-gradient(to right, #73DFE6FF,#11A9C6FF);;
+        color: floralwhite;
+        width: 80px;
+        height: 25px;
+        font-size: 15px;
+        font-family: 'Quicksand Bold', arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        left: 20px;
+    }
+    .nextbutton button:hover{
+        background-image: linear-gradient(to right, rgb(124, 230, 240),rgb(12, 202, 240));
+        cursor: pointer;
+    }
+    .out {
+        display: flex;
+        margin-top: -25px;
+        margin-left: 350px;
+    }.backbutton{
+         margin-right: 600px;}
+    .buttons.backbutton input{
+        float: left;
+    }
+
+}
+@media only screen and (max-width: 772px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body, html{
+        height: 100%;
+        margin: 0;
+        background-image: url("../../../photos/wall.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    header{
+        background-color: #ABDBF1;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        margin-bottom: 200px;
+        width: 100%;
+        height: 70px;
+    }
+    .logo{
+        align-items: center;
+        width: 250px;
+
+    }
+    header .logo p{
+        margin-left: 70px;
+        margin-top: 20px;
+        font-size: 25px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: 'Quicksand Bold', arial;
+    }
+
+    .logo img {
+        float: left;
+        width: 60px;
+        height: 60px;
+        margin-left: 5px;
+    }
+    header .info{
+        margin-left: 50px;
+        width: 200px;
+    }
+    header .info img{
+        float: left;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #868585;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+    #Full{
+        margin-top: 0px;
+    }
+    #Gender{
+        margin-top: 20px;
+    }
+    #Date_{
+        margin-left: 170px;
+        margin-top: -48px;
+    }
+    #Phone{
+        margin-top: 20px;
+        margin-left: 170px;
+    }
+    #Adress_{
+        margin-left: 340px;
+        margin-top: -48px;
+    }
+    header .settings{
+        width: 25px;
+        height:25px;
+    }
+    header .settings input{
+        margin-top: 5px;
+        width: inherit;
+        margin-left: -15px;
+        height: inherit;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 80px;
+        box-shadow: 0px 8px 16px 0px rgba(31, 184, 255, 0.5);
+        z-index: 1;
+        margin-left: -70px;
+    }
+    .dropdown-content a {
+        color: #053a55;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+        background-color:white;
+    }
+    .dropdown:focus .dropdown-content {
+        display: block;
+        background-color:white;
+    }
+    .left{
+        margin-left: 5px;
+        margin-top: 90px;
+        padding: 15px 25px;
+        border-radius: 30px;
+        width: 500px;
+        height: 90px;
+        background-color: #ABDBF1;
+    }
+
+    .patient img{
+        display: none;
+        border-radius: 30px;
+        height: 280px;
+    }
+    .patient .info{
+        margin-left: -10px;
+        /* margin-top: 5px; */
+    }
+    .patient .info p{
+        font-size: 13px;
+        margin-left: 15px;
+        margin-top: 10px;
+        color: #0085c7;
+        font-family: Quicksand Regular, arial, serif;
+    }
+    .right{
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+    .right p.reg{
+        margin-bottom: 40px;
+        font-size: 35px;
+        margin-left: -5px;
+        font-family: Quicksand Regular, arial, serif;
+        color: #0C90D0;
+    }
+    .right p.font, .date p{
+        font-size: 25px;
+        font-family: Quicksand Regular, arial, serif;
+        color: #03426B;
+        margin-bottom: 15px;
+    }
+    .right  input{
+        margin-bottom: 20px;
+        height: 100px;
+        width: 300px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-right: 45px;
+    }
+    .right input:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    .right input:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    .right input::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 14px;
+    }
+    .right  textarea{
+        margin-bottom: 20px;
+        height: 100px;
+        width: 300px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-right: 45px;
+    }
+    .right textarea:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    .right textarea:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    .right textarea::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 14px;
+    }
+
+    .right .select select{
+        margin-bottom: 20px;
+        margin-top: 15px;
+        height: 30px;
+        width: 300px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-right: 45px;
+    }
+    .right .select select:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    .right .select select:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    .right .select select::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 14px;
+    }
+
+
+    .right .date {
+        display: block;
+        padding-top: 15px;
+    }
+    .right .date input {
+        height: 30px;
+        border: 1px solid rgba(131, 137, 150, 0.562);
+        border-radius: 3px;
+        background-color: #fff;
+        padding: 5px 5px;
+        margin-right: 100px;
+        font-family: 'Quicksand Bold', arial;
+
+    }
+    .right .date input:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    .right .date input:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    .right .date input::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 14px;
+    }
+
+
+    .right .buttons{
+        margin-left: 300px;
+        display: flex;
+        margin-top: 25px;
+    }
+
+    .nextbutton button{
+        float: right;
+        background-image: linear-gradient(to right, #73DFE6FF,#11A9C6FF);;
+        color: floralwhite;
+        width: 80px;
+        height: 25px;
+        font-size: 15px;
+        font-family: 'Quicksand Bold', arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        left: 20px;
+    }
+    .nextbutton button:hover{
+        background-image: linear-gradient(to right, rgb(124, 230, 240),rgb(12, 202, 240));
+        cursor: pointer;
+    }
+    .out {
+        display: flex;
+        margin-top: -25px;
+        margin-left: 100px;
+    }.backbutton{
+         margin-right: 600px;}
+    .buttons.backbutton input{
+        float: left;
+    }
+
+}
+
+

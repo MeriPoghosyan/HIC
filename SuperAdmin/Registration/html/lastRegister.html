@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyProject</title>
+    <link rel="stylesheet" href="../css/lastRegister.css">
+    <script src="../js/password.js"></script>
+</head>
+<body>
+
+<header>
+    <img class="logo" src="../../../photos/logo.png" alt="img">
+    <p>HIC</p>
+</header>
+<main>
+    <div class = "left">
+        <div class="pat"><img src="../../../photos/pattern.jpg" alt=""  ></div>
+        <div class="bl"> <img src="../../../photos/blue.jpg" alt=""></div>
+        <div class="doc"><img src="../../../photos/doctor.png" alt="" ></div>
+    </div>
+    <form action="../../LogIn/html/Login.html">
+        <div class="right">
+            <p class="reg">Register</p>
+            <div class="telecom1">
+                <p class="telecom">Organization Telecom </p>
+                <input type="text" id="telecom" name = "telecom" required placeholder="Organization Telecom" size="70px">
+            </div>
+            <div class="type1">
+                <p class="type">Organization Type </p>
+                <input type="text" id="typeO" name = "type" required placeholder="Organization Type" size="70px">
+            </div>
+
+            <div class="pass">
+                <p class="pass_title">Password</p>
+                <input onmouseover="enabel()" id="pass1" type="password" name = "pass" required placeholder="Password" >
+                <input onmouseover="enabel()" id="confirm_pass" type="password" name = "confirm_pass" required placeholder="Confirm Password">
+                <p id="normal" class="Normal_class">☒ Use same password</p>
+                <p id="normal2" class="Normal_class2">🗹 Password Matched</p>
+            </div>
+            <input type="checkbox" id="type" required>
+            <label  for="type" id="type1">To make sure your account is secure, you'll be logged out from</label>
+            <h1  id="br"> other devices once you set the new password</h1>
+            <div class="button">
+                <button onclick="coPassword()" type = "submit">Sign up</button>
+            </div>
+        </div>
+        </div>
+    </form>
+    <a href="../html/secondOrganization.html">
+        <div class="button_div3">
+            <input class="button3" type="image" src="../../../photos/left-chevron.png">
+        </div>
+    </a>
+</main>
+<script src="../js/LastReg.data.js"></script>
+</body>
+</html>

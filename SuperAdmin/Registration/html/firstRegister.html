@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MyProject</title>
+    <link rel="stylesheet" href="../css/firstRegister.css">
+    <link rel="stylesheet" href="../css/intlTelInput.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="../../../photos/logo.png" alt="img">
+        <p>HIC</p>
+    </header>
+    <main>
+        <form method="post" action="secondOrganization.html">
+            <div class="photos">
+                <div class="pat"><img src="../../../photos/pattern.jpg" alt=""></div>
+                <div class="bl"> <img src="../../../photos/blue.jpg" alt=""></div>
+                <div class="doc"><img src="../../../photos/doctor.png" alt=""></div>
+            </div>
+            <div class="texts">
+                <p class="reg">Registration</p>
+                <div class="name">
+                    <p class="name">Super admin's full name</p>
+                    <input type="text" id="Name" name="name" required placeholder="Name" size="30px">
+                    <input type="text" id="surName" name="surname" required placeholder="Surname" size="30px">
+                </div>
+                <div class="phone">
+                    <p>Phone number</p>
+                    <input type="tel" id="phone" name="phone" required placeholder="Phone" onkeypress='validate(event)'>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                </div>
+                <div class="email">
+                    <p class="email">E-mail</p>
+                    <input type="email" id="E-Mail" name="email" required placeholder="E-mail" size="30px">
+                </div>
+                <div class="title">
+                    <p class="title">Title</p>
+                    <input type="text" id="title" name="title" required placeholder="Title" size="30px">
+                </div>
+                <div class="next">
+                    <button class="next2">Next</button>
+                </div>
+            </div>
+        </form>
+        <div class="back">
+            <a href="../../../Main/html/Super Admin Main.html">
+                <input class="back" type="image" src="../../../photos/back.png">
+            </a>
+        </div>
+        </div>
+
+    </main>
+    <script src="../js/intlTelInput.js"></script>
+    <script src="../js/phone.js"></script>
+    <script src="../js.js"></script>
+    <script src="../js/firstReg.data.js"></script>
+
+</body>
+
+</html>

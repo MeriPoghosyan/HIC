@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyProject</title>
+    <script src="../js/visitFirst.js"></script>
+    <link rel="stylesheet" href="../css/visitFirst.css">
+</head>
+<body>
+<div class="pat">
+    <div class="logo_div" >
+        <img class="logo" src="../../../photos/logo.png" alt="img">
+        <div class="woman_div"><img class="woman" src="../../../photos/woman.png" alt="Avatar"></div>
+        <div class="log">
+            <p class="HIC_class">HIC</p>
+        </div>
+        <div class="h1_div">
+            <h1>
+                Name
+            </h1>
+        </div>
+        <div class="h2_div">
+            <h2>
+                Surname
+            </h2>
+        </div>
+        <div class="button_div">
+            <div class="settings dropdown"> <input class="button" type="image" src="../../../photos/gear (1).png">
+                <div class="dropdown-content">
+                    <a href="change Password.html">Password</a>
+                    <a href="../../LogIn/html/Practitioner Login.html">Log Out</a>
+                </div>
+            </div>
+        </div>
+        <div class="back_div">
+            <img class="background" src="../../../photos/pat2.png" alt="img">
+        </div>
+        <div class="man_div">
+            <img class="man" src="../../../photos/man.png" alt="img"> </div>
+        <div class="man_div2">
+            <p class="p3_class">
+                Full Name: <span id="Full_name" ></span>
+            </p>
+            <p class="p4_class">
+                Gender:  <span id="gender"> </span>
+            </p>
+            <p class="p5_class">
+                Date of Birth: <span  id="Date" ></span>
+            </p>
+            <p class="p6_class">
+                Phone Number:  <span id="Phone_number"> </span>
+            </p>
+            <p class="p7_class">
+                Address:  <span id="Adress" ></span>
+            </p>
+        </div>
+
+        <div class="Reg_div">
+            <p class="reg">Registration</p>
+            <div class="Sub_div">
+                <form action="visitSecond.html">
+                    <p class="Sub">Subjective</p>
+                    <p class="Main_Comp">Main complains </p>
+                    <input class="in_class" id="Main_comp" type="text" required placeholder="Text" size="70px">
+                    <p class="Main_Comp">Anamnesis morbi </p>
+                    <input class="in_class" id="anamnesis" type="text"  required placeholder="Anamnesis morbi" size="70px">
+                    <p class="Main_Comp">Growth and development</p>
+                    <input class="in_class" id="growth" type="text" required placeholder="Growth and development"  size="70px">
+                    <p class="Main_Comp">Epidemiological anamnesis</p>
+                    <input class="in_class" id="epidemio" type="text" required placeholder="Epidemiological anamnesis"
+                           name = "name" size="70px">
+                    <div class="button1_div">
+                        <button class="button1" >Next</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <a href="../html/secondOrganization.html">
+        <div class="button_div3">
+            <input class="button3" onclick="getPrevious()" type="image" src="../../../photos/left-chevron.png">
+        </div>
+        </a>
+    </div>
+</div>
+<script src="../js/visitFirst.js"></script>
+<script src="../js/visitFirst.data.js"></script>
+</body>
+</html>

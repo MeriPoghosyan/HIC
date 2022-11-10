@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/pracStyle2.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="../../../photos/logo.png" alt="img">
+        <p>HIC</p>
+    </header>
+    <main>
+        <div class="left">
+            <div class="up"><img  src="../../../photos/up.png" alt=""></div>
+            <div class="down"><img  src="../../../photos/BackGround_Green.png" alt=""></div>
+            <div class="doc"> <img  src="../../../photos/bjishk.png" alt=""></div>
+        </div>
+        <form id="form" method="get" action="PractPage3.html">
+        <div class="right">
+            <p class="reg">Registration</p>
+                <div class="address">
+                    <p class="adr">Adress</p>
+                </div>
+                    <div class="address">
+                        <div class="titles">
+                            <p>Country</p>
+                            <p>City</p>
+                            <p>State</p>
+                            <p>District</p>
+                            <p>Street</p>
+                            <p>Postal Code</p>
+                        </div>
+                        <div class="inputs">
+                            <div><select id="country" name="country" required aria-placeholder="Select a country" ></select></div>
+                            <div class="city"><input type="text" id="city" name = "city" required placeholder="City" ></div>
+                            <div><input type="text" id="state" name = "state" required placeholder="State" ></div>
+                            <div><input type="text" id="district" name = "district" required placeholder="District" ></div>
+                            <div><input type="text" id="street" name = "street" required placeholder="Street" ></div>
+                            <div><input type="text" id="postalcode" name = "postalcode" required placeholder="Postal Code" ></div>
+                        </div>
+                    </div>
+                    <div class="year">
+                        <p class="yr">Qualification</p>
+                        <select id="ddlYears1"></select>
+                        <select id="ddlYears2"></select>
+                    </div>
+                        <div class="buttons">
+                            <div class="nextbutton">
+                                <button>Next</button>
+                            </div>
+                        </div>
+                </form>
+        </div>
+        <a href="../html/PractPage1.html">
+            <div class="out">
+                <div class="backbutton">
+                    <input class="back" type="image" src="../../../photos/left-chevron.png" style="width: 20px; height: 20px; margin-top: 0;">
+                </div>
+            </div>
+        </a>
+        
+    </main>
+    <script src="../js/year.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
+    <script src="../js/address.js"></script>
+    <script src="../js/Form2.js"></script>
+</body>
+</html>

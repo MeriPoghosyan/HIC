@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", serif;
+}
+
+#role {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    margin-top: -80px;
+    background-image: url("../../photos/role.jpeg");
+    background-repeat: no-repeat;
+}
+
+#pattern {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url("../../photos/bg1.jpeg");
+    background-position: 50% 50%;
+    opacity: 60%;
+    background-size: cover;
+}
+
+#text {
+
+    color: #0C90D0;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    font-weight: unset;
+}
+
+#buttons {
+    display: flex;
+}
+
+#choice {
+    width: auto;
+    position: absolute;
+    z-index: 200;
+    top: 20%;
+    text-align: center;
+}
+
+a {
+    margin: 0 20px 0 20px;
+    padding: 15px 50px;
+    background-color: #0C90D0;
+    color: aliceblue;
+    border-radius: 40px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #007DBA;
+}
+
+header {
+    position: absolute;
+    z-index: 500;
+    align-items: center;
+    display: flex;
+
+}
+
+header h1 {
+    color: #0C90D0;
+    font-weight: 600;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+}
+
+@media screen and (min-width: 1068px) {
+    #choice {
+        left: 43%;
+    }
+    #buttons {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1068px) {
+    #choice {
+        left: 27%;
+    }
+    #buttons div{
+        margin-top: 50px;
+    }
+    #buttons {
+        flex-direction: column;
+    }
+
+}

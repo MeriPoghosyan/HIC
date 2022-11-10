@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e7f5fc7a;
+}
+
+header{
+    position: absolute;
+    z-index: 500;
+    align-items: center;
+    display: flex;
+
+}
+header p{
+    font-size: 35px;
+    font-weight: bold;
+    color: #0C90D0;
+    font-family: 'Quicksand Bold', arial;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+main .right .pic .img{
+    font-size: 20px;
+    color: #0C90D0;
+    font-family: 'Quicksand Regular', arial;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+main {
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .left {
+    max-height: 600px;    
+    flex-basis: 500px;
+    flex-shrink: 0; 
+}
+
+main.left.down{
+    height: 450px;
+    background-size: cover;
+}
+
+main .left .down img {
+    width:500px ;
+    height: 450px;
+    border-radius: 20px;
+}
+
+main .left .doc {
+    margin-top: -590px;
+    margin-left: 30px;
+}
+
+main .left .up {
+    max-height: 190px;
+    max-width: 500px;
+}
+main .left .up img {
+    width: 500px;
+}
+
+main .right {
+    /* height: 600px; */
+    margin-left: 60px;
+    margin-top: 30px;
+    flex-basis: auto;
+    flex-shrink: 0;
+    font-family: 'Quicksand Regular', arial;
+}
+
+main .right p.reg{
+    font-size: 35px;
+    color: #0C90D0;
+    font-family: 'Quicksand Regular', arial;
+    
+}
+main .right p.adr{
+    font-size: 20px;
+    color: #0C90D0;
+    font-family: 'Quicksand Regular', arial;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+/* ////////////////////////////////////////////////// */
+.right .address{
+    display: flex; 
+}
+
+.right .address .titles{
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+    font-size: 19px;
+    color: #053a55;
+    font-family: 'Quicksand Regular', arial;
+}
+
+.right  .address .titles p{
+    margin-bottom: 33px;
+}
+.right .inputs .city {
+    margin-top:25px ;
+}
+/* 
+.right .inputs .country select{
+    margin-top: 15px;
+} */
+.right  .inputs input{
+    float: inline-start;
+    margin-bottom: 25px;
+    height: 30px;
+    padding: 5px 5px;
+    border: 1px solid #838996FF;
+    border-radius: 3px;
+    font-family: 'Quicksand Regular', arial;
+}
+.right .inputs input:hover{
+    border: 0.5px solid rgb(115, 118, 122);
+    cursor:text;
+}
+.right .inputs input::placeholder{
+    font-family: 'Quicksand Bold', arial;
+}
+
+.inputs input:focus{
+    outline: 0.2px solid #11a8ce62;
+    border: 1px solid rgb(82, 112, 151);
+}
+.right .type select, .language select, .inputs select, .inputs input{
+    width: 350px;
+}
+.right .inputs select:hover{
+    border: 0.5px solid rgb(115, 118, 122);
+    cursor:text;
+}
+.right .inputs select::placeholder{
+    font-family: 'Quicksand Bold', arial;
+}
+
+.inputs select:focus{
+    outline: 0.2px solid #11a8ce62;
+    border: 1px solid rgb(82, 112, 151);
+}
+main .right .name input{
+    width: 250px;
+}
+main .right .name .name, .gender .gend , .date p, .martial .mart, .birth .birth,.right .language p{
+    font-size: 20px;
+    color: #0C90D0;
+    font-family: 'Quicksand Regular', arial;
+    margin-bottom: 15px;
+
+}
+main .right .name input,  .date input, select{
+    margin-bottom: 25px;
+    height: 30px;
+    padding: 5px 5px;
+    border: 1px solid #838996FF;
+    border-radius: 3px;
+    margin-right: 60px;
+}
+
+ main .right .year{
+    margin-bottom: 0px;
+    position: relative;
+}
+main .right .year .yr{
+    font-size: 20px;
+    color: #0C90D0;
+    font-family: 'Quicksand Regular', arial;
+    width: 50px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+
+/*Next*/
+.buttons{
+    display: flex;
+    margin-top: 25px;
+}
+.nextbutton button{
+    float: right;
+    background-image: linear-gradient(to right, #73DFE6FF,#11A9C6FF);;
+    color: floralwhite;
+    width: 80px;
+    height: 25px;
+    font-size: 15px;
+    font-family: 'Quicksand Bold', arial;
+    outline: 0;
+    border: 0;
+    border-radius: 18px;
+    left: 20px;
+    margin-left: 600px;
+}
+.nextbutton button:hover{
+    background-image: linear-gradient(to right, rgb(124, 230, 240),rgb(12, 202, 240));
+    cursor: pointer;
+}
+.out {
+    display: flex;
+    margin-top: -20px;
+    margin-left: 100px;
+}.backbutton{
+  margin-right: 200px;
+  
+}
+.buttons.backbutton input{
+   float: left;
+}

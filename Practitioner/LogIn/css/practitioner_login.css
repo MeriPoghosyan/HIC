@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", serif ;
+}
+
+#header{
+    width: 100%;
+    position: absolute;
+    z-index: 500;
+    align-items: center;
+    display: flex;
+
+}
+#body{
+    background-image: url("../../../photos/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#header h1{
+    color: #0C90D0;
+    font-weight: 600;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+#pattern{
+    position: absolute;
+    background-image: url("../../../photos/abstract_background.jpg");
+    width: 570px;
+    height: 421px;
+    top: 0;
+    left: 0;
+}
+
+#girl{
+    position: absolute;
+    background-image: url("../../../photos/girl.png");
+    width: 570px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    background-position: -225px 0;
+}
+
+#gradient{
+
+    background-image: url("../../../photos/gradient.jpeg");
+    width: 570px;
+    height: 500px;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#for_button{
+    position: absolute;
+    display: flex;
+    align-items: baseline;
+    bottom: 15px;
+    left: 0;
+    width: auto;
+    height: 500px;
+}
+
+#for_button a img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+#container button:hover {
+    background-image: linear-gradient(to right, rgb(124, 230, 240), rgb(12, 202, 240));
+}
+
+#visibility{
+    display: flex;
+}
+
+span{
+    transform: translate(10px, 25px);
+    cursor: pointer;
+}
+
+.fa{
+    font-size: 20px;
+    color: #03426B;
+}
+
+#right_side h1{
+    color: #007DBA;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+#container button{
+    background-image: linear-gradient(to right, #73DFE6FF, #11A9C6FF);
+    text-align: center;
+    border-radius: 40px;
+    font-weight: 600;
+    padding: 9px 40px;
+    color: aliceblue;
+    border: none;
+    font-size: 15px;
+}
+#right_side{
+    position: absolute;
+    height: 600px;
+}
+#container form input{
+    padding: 12px 20px;
+    margin-bottom: 60px;
+    margin-top: 15px;
+    display: block;
+    border: 1px solid #c2c2c2;
+    background-color: #ececec;
+    border-radius: 5px;
+}
+#container form label{
+    color: #03426B;
+}
+
+@media screen and (min-width: 1330px) {
+
+    #container button {
+        margin-left: 500px;
+    }
+    #right_side{
+        left: 700px;
+        width: 570px;
+    }
+
+}
+
+@media  screen and (min-width: 1130px) and (max-width: 1330px){
+
+    #container button {
+        margin-left: 400px;
+    }
+    #right_side{
+        width: 400px;
+    }
+
+
+}
+@media  screen and (min-width: 940px) and (max-width: 1130px){
+    #right_side h1{
+        font-size: 30px;
+    }
+    #container button {
+        margin-top: 120px;
+        margin-left: 200px;
+    }
+    #right_side{
+        top: 50px;
+        width: 300px;
+    }
+    #container form input{
+        width: 200px;
+    }
+
+    #container form label{
+        font-size: 20px;
+    }
+}
+
+@media  screen and (max-width: 940px){
+    #body{
+        background-position: right;
+    }
+    #pattern{
+        width: 0;
+    }
+    #girl{
+        width: 0;
+    }
+    #gradient{
+        width: 0;
+    }
+    #right_side h1{
+        font-size: 40px;
+    }
+    #container button {
+        margin-top: 40px;
+        margin-left: 230px;
+    }
+    #right_side{
+        left: 70px;
+        top: 100px;
+        width: 400px;
+    }
+    #container form input{
+        width: 300px;
+    }
+
+    #container form label{
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (min-width: 1130px) {
+
+    #right_side h1{
+        font-size: 40px;
+    }
+    #container button {
+        margin-top: 100px;
+    }
+    #right_side{
+        top: 50px;
+    }
+    #container form input{
+        width: 300px;
+    }
+    #container form label{
+        font-size: 25px;
+    }
+}
+@media  screen and (min-width: 940px) and (max-width: 1330px){
+    #right_side {
+        left: 600px;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,855 @@
+@media only screen and (min-width: 1200px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        overflow-y: hidden;
+        background-color: #e7f5fc7a;
+    }
+    header{
+        position: absolute;
+        z-index: 500;
+        align-items: center;
+        display: flex;
+
+    }
+    header p{
+        font-size: 35px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: Quicksand Regular, arial, serif;
+    }
+    .logo {
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+    }
+    main {
+        margin-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main .left {
+        max-height: 600px;
+        flex-basis: 500px;
+        flex-shrink: 0;
+
+
+    }
+    main .left .pat {
+        max-height: 190px;
+        max-width: 500px;
+    }
+    main .left .pat img{
+        width: 500px;
+
+    }
+    main .left .bl{
+        height: 520px;
+        background-size: cover;
+    }
+    main .left .bl img {
+        width:500px ;
+        height: 500px;
+        border-radius: 20px;
+    }
+    main .left .doc img {
+        width: 700px;
+        margin-top: -580px;
+        margin-left: -80px;
+
+    }
+    main .right {
+        height: 600px;
+        margin-left: -50px;
+        margin-top: 30px;
+        flex-basis: auto;
+        flex-shrink: 0;
+        flex-grow: 1;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+
+    main .right p.reg{
+
+        font-size: 35px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+    main .right .name,.p_adr{
+
+        font-size: 20px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    main .right .name input{
+
+        border-width: 1px;
+        margin-bottom: 15px;
+        height: 40px;
+        padding: 5px 5px;
+        border-radius: 5px;
+        margin-right: 50px;
+    }
+    main .right .adr input{
+        margin-bottom: 15px;
+        height: 40px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-left: 90px;
+
+    }
+    #country{
+
+        color: #053a55;
+    }
+    #country1{
+        border-width: 1px;
+        border-radius: 5px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 100px;
+        padding-left: 5px;
+    }
+    #div_city{
+        color: #053a55;
+        margin-top: 30px;
+    }
+    #city1{
+        border-width: 1px;
+        border-radius: 5px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 129px;
+        padding-left: 5px;
+    }
+    #div_state{
+        color: #053a55;
+        margin-top: 30px;
+    }
+    #state1{
+        border-width: 1px;
+        border-radius: 5px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 120px;
+        padding-left: 5px;
+    }
+    #div_district{
+
+        color: #053a55;
+        margin-top: 30px;
+    }
+    #district1{
+        border-width: 1px;
+        border-radius: 5px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 110px;
+        padding-left: 5px;
+    }
+    #div_street{
+        color: #053a55;
+        margin-top: 30px;
+    }
+    #street1{
+        border-width: 1px;
+        border-radius: 5px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 117px;
+        padding-left: 5px;
+    }
+    #div_Postal{
+        color: #053a55;
+        margin-top: 30px;
+    }
+    #postal1{
+        border-width: 1px;
+        border-radius: 5px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 72px;
+        padding-left: 5px;
+    }
+
+    .button{position:relative;}
+    button{
+        background-image: linear-gradient(to right, #73DFE6FF, #11A9C6FF);
+        color: floralwhite;
+        width: 80px;
+        height: 25px;
+        font-size: 15px;
+        font-family: Quicksand Regular, arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        position: absolute;
+        right:  -50px;
+        bottom: -5px;
+
+    }
+    button:hover{
+        background-color: #2db9ff;
+        cursor: pointer;
+    }
+    main :focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    .button_div3 {
+        margin-top: 620px;
+        margin-left: -320px;
+    }
+
+    .button3 {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media only screen and (max-width: 1200px ){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        overflow-y: hidden;
+        background-color: #e7f5fc7a;
+    }
+    header{
+        position: absolute;
+        z-index: 500;
+        align-items: center;
+        display: flex;
+
+    }
+    header p{
+        font-size: 23px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: Quicksand Regular, arial, serif;
+    }
+    .logo {
+        width: 20px;
+        height: 50px;
+        margin-left: 10px;
+    }
+    main .left {
+        max-height: 600px;
+        flex-basis: 500px;
+        flex-shrink: 0;
+
+
+    }
+    main .left .pat {
+        max-height: 130px;
+        max-width: 500px;
+    }
+    main .left .pat img{
+        width: 450px;
+
+    }
+    main .left .bl{
+        height: 420px;
+        background-size: cover;
+    }
+    main .left .bl img {
+        width:450px ;
+        height: 450px;
+        border-radius: 20px;
+    }
+    main .left .doc img {
+        width: 620px;
+        margin-top: -480px;
+        margin-left: -70px;
+
+    }
+    main .right {
+        height: 600px;
+        margin-left: 500px;
+        margin-top: -550px;
+        flex-basis: auto;
+        flex-shrink: 0;
+        flex-grow: 1;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+
+    main .right p.reg{
+        font-size: 35px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+    main .right .name,.p_adr{
+        font-size: 20px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    main .right .name input{
+        border-width: 1px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        height: 40px;
+        padding: 5px 5px;
+        margin-right: 50px;
+    }
+    main .right .adr input{
+        margin-bottom: 15px;
+        height: 40px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-left: 90px;
+
+    }
+    #country{
+        color: #053a55;
+    }
+    #country1{
+        border-width: 1px;
+        border-radius: 5px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 100px;
+        padding-left: 5px;
+    }
+    #div_city{
+        color: #053a55;
+        margin-top: 30px;
+    }
+    #city1{
+        border-width: 1px;
+        border-radius: 5px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 130px;
+        padding-left: 5px;
+    }
+    #div_state{
+        color: #053a55;
+        margin-top: 30px;
+    }
+    #state1{
+        border-width: 1px;
+        border-radius: 5px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 122px;
+        padding-left: 5px;
+    }
+    #div_district{
+        color: #053a55;
+        margin-top: 30px;
+    }
+    #district1{
+        border-width: 1px;
+        border-radius: 5px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 107px;
+        padding-left: 5px;
+    }
+    #div_street{
+        color: #053a55;
+        margin-top: 30px;
+    }
+    #street1{
+        border-width: 1px;
+        border-radius: 5px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 117px;
+        padding-left: 5px;
+    }
+    #div_Postal{
+        color: #053a55;
+        margin-top: 30px;
+    }
+    #postal1{
+        border-width: 1px;
+        border-radius: 5px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 71px;
+        padding-left: 5px;
+    }
+
+    .button{position:relative;}
+    button{
+        background-image: linear-gradient(to right, #73DFE6FF, #11A9C6FF);
+        color: floralwhite;
+        width: 80px;
+        height: 25px;
+        font-size: 15px;
+        font-family: Quicksand Regular, arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        position: absolute;
+        right:  40px;
+        bottom: -5px;
+
+    }
+    button:hover{
+        background-color: #2db9ff;
+        cursor: pointer;
+    }
+    main :focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    .button_div3 {
+        margin-top: -20px;
+        margin-left: 600px;
+    }
+
+    .button3 {
+        width: 20px;
+        height: 20px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+
+        overflow-y: hidden;
+        background-color: #e7f5fc7a;
+    }
+    header{
+        position: absolute;
+        z-index: 500;
+        align-items: center;
+        display: flex;
+
+    }
+    header p{
+        font-size: 20px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: Quicksand Regular, arial, serif;
+    }
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+    }
+    main {
+        margin-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main .left {
+        max-height: 500px;
+        flex-basis: 400px;
+        flex-shrink: 0;
+
+
+    }
+    main .left .pat {
+
+        max-height: 130px;
+        max-width: 500px;
+    }
+    main .left .pat img{
+        width: 350px;
+    }
+    main .left .bl{
+        height: 320px;
+    }
+    main .left .bl img {
+        width:350px ;
+        height: 420px;
+        border-radius: 20px;
+        background-size: cover;
+    }
+    main .left .doc img {
+        width: 520px;
+        height: 480px;
+        margin-top: -360px;
+        margin-left: -70px;
+
+    }
+    main .right {
+        height: 600px;
+        margin-left: 400px;
+        margin-top: -460px;
+        flex-basis: auto;
+        flex-shrink: 0;
+        flex-grow: 1;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+
+    main .right p.reg{
+        font-size: 25px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+    main .right .name,.p_adr{
+        font-size: 15px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    main .right .name input{
+        border-width: 1px;
+        border-radius: 5px;
+        width: 380px;
+        margin-bottom: 15px;
+        height: 40px;
+        padding: 5px 5px;
+        margin-right: 40px;
+    }
+    main .right .adr input{
+        margin-bottom: 15px;
+        height: 40px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-left: 90px;
+
+    }
+    #country{
+        color: #053a55;
+    }
+    #country1{
+        border-width: 1px;
+        border-radius: 5px;
+        width: 235px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 81px;
+        padding-left: 5px;
+    }
+    #div_city{
+
+        margin-top: 30px;
+    }
+    #city1{
+        border-width: 1px;
+        border-radius: 10px;
+        width: 235px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 111px;
+        padding-left: 5px;
+    }
+    #div_state{
+        color: #053a55;
+        margin-top: 30px;
+    }
+    #state1{
+        border-width: 1px;
+        border-radius: 5px;
+        width: 235px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 103px;
+        padding-left: 5px;
+    }
+    #div_district{
+        color: #053a55;
+        margin-top: 30px;
+    }
+    #district1{
+        border-width: 1px;
+        border-radius: 5px;
+        width: 235px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 88px;
+        padding-left: 5px;
+    }
+    #div_street{
+        color: #053a55;
+        margin-top: 30px;
+    }
+    #street1{
+        border-width: 1px;
+        border-radius: 5px;
+        width: 235px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 98px;
+        padding-left: 5px;
+    }
+    #div_Postal{
+        color: #053a55;
+        margin-top: 30px;
+    }
+    #postal1{
+        border-width: 1px;
+        border-radius: 5px;
+        width: 235px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 51px;
+        padding-left: 5px;
+    }
+    .button{position:relative;}
+    button{
+        background-image: linear-gradient(to right, #73DFE6FF, #11A9C6FF);
+        color: floralwhite;
+        width: 80px;
+        height: 35px;
+        font-size: 15px;
+        font-family: Quicksand Regular, arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        position: absolute;
+        right:  20px;
+        bottom: -5px;
+
+    }
+    button:hover{
+        background-color: #2db9ff;
+        cursor: pointer;
+    }
+    main :focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    .button_div3 {
+        margin-top: -20px;
+        margin-left: 450px;
+    }
+
+    .button3 {
+        width: 20px;
+        height: 20px;
+    }
+}
+@media only screen and (max-width: 772px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-color: #e7f5fc7a;
+    }
+    header{
+        position: absolute;
+        z-index: 500;
+        align-items: center;
+        display: flex;
+
+    }
+    header p{
+        font-size: 20px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: Quicksand Regular, arial, serif;
+    }
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+    }
+    main {
+        margin-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main .left {
+        max-height: 400px;
+        flex-basis: 400px;
+        flex-shrink: 0;
+
+
+    }
+    main .left .pat {
+        display: none;
+        max-height: 130px;
+        max-width: 500px;
+    }
+    main .left .pat img{
+        display: none;
+        width: 380px;
+
+    }
+    main .left .bl{
+        height: 320px;
+        background-size: cover;
+    }
+    main .left .bl img {
+        display: none;
+        width:380px ;
+        height: 450px;
+        border-radius: 20px;
+    }
+    main .left .doc img {
+        display: none;
+        width: 550px;
+        height: 500px;
+        margin-top: -360px;
+        margin-left: -70px;
+
+    }
+    main .right {
+        height: 600px;
+        margin-left: 40px;
+        margin-top: -230px;
+        flex-basis: auto;
+        flex-shrink: 0;
+        flex-grow: 1;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+
+    main .right p.reg{
+        font-size: 30px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+    main .right .name,.p_adr{
+        font-size: 18px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    main .right .name input{
+        border-width: 1px;
+        border-radius: 5px;
+        width: 400px;
+        margin-bottom: 15px;
+        height: 40px;
+        padding: 5px 5px;
+        margin-right: 40px;
+    }
+    main .right .adr input{
+        margin-bottom: 15px;
+        height: 40px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-left: 90px;
+
+    }
+    #country{
+        color: #053a55;
+    }
+    #country1{
+        border-width: 1px;
+        border-radius: 5px;
+        width: 250px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 81px;
+        padding-left: 5px;
+    }
+    #div_city{
+        color: #053a55;
+        margin-top: 30px;
+    }
+    #city1{
+        border-width: 1px;
+        border-radius: 5px;
+        width: 250px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 111px;
+        padding-left: 5px;
+    }
+    #div_state{
+        color: #053a55;
+        margin-top: 30px;
+    }
+    #state1{
+        border-width: 1px;
+        border-radius: 5px;
+        width: 250px;;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 103px;
+        padding-left: 5px;
+    }
+    #div_district{
+        color: #053a55;
+        margin-top: 30px;
+    }
+    #district1{
+        border-width: 1px;
+        border-radius: 5px;
+        width: 250px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 88px;
+        padding-left: 5px;
+    }
+    #div_street{
+        color: #053a55;
+        margin-top: 30px;
+    }
+    #street1{
+        border-width: 1px;
+        border-radius: 5px;
+        width: 250px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 98px;
+        padding-left: 5px;
+    }
+    #div_Postal{
+        color: #053a55;
+        margin-top: 30px;
+    }
+    #postal1{
+        border-width: 1px;
+        border-radius: 5px;
+        width: 250px;
+        margin-bottom: -10px;
+        height: 45px;
+        margin-left: 51px;
+        padding-left: 5px;
+    }
+    .button{position:relative;}
+    button{
+        background-image: linear-gradient(to right, #73DFE6FF, #11A9C6FF);
+        color: floralwhite;
+        width: 80px;
+        height: 25px;
+        font-size: 15px;
+        font-family: Quicksand Regular, arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        position: absolute;
+        right:  20px;
+        bottom: 5px;
+
+    }
+    button:hover{
+        background-color: #2db9ff;
+        cursor: pointer;
+    }
+    main :focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    .button_div3 {
+        margin-top: -30px;
+        margin-left: 200px;
+    }
+
+    .button3 {
+        width: 20px;
+        height: 20px;
+    }
+}

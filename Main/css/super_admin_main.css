@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", serif ;
+}
+
+#role{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    margin-top: -80px;
+    background-image: url("../../photos/role.jpeg");
+    background-repeat: no-repeat;
+}
+
+#pattern{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url("../../photos/bg1.jpeg");
+    background-position: 50% 50%;
+    opacity: 60%;
+    background-size: cover;
+}
+#text{
+
+    color: #00222f;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    font-weight: unset;
+}
+#info{
+    color: dimgray;
+    margin-top: -70px;
+}
+#choice #text span{
+    color: #0C90D0;
+}
+
+#header{
+    width: 100%;
+    position: absolute;
+    z-index: 500;
+    align-items: center;
+    display: flex;
+
+}
+
+#header h1{
+    color: #0C90D0;
+    font-weight: 600;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+#header #menu_bar{
+    margin-left: auto;
+}
+#header nav ul li a{
+    display: block;
+    text-align: center;
+    font-style: normal;
+    color: aliceblue;
+    background-color: #0C90D0;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 7px 30px;
+    width: 60px;
+}
+
+#header a:hover{
+    background-color: #007DBA;
+}
+#header nav ul li #home_button:hover{
+    color: #007DBA;
+    background-color: rgba(12, 144, 208, 0.36);
+    border-radius: 40px;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+}
+
+#choice{
+    position: absolute;
+    z-index: 200;
+}
+#header #home_button{
+    background: none;
+    color: #0C90D0;
+}
+@media screen and (max-width:1000px){
+    #choice{
+        width: 370px;
+        left: 25%;
+        top: 25%;
+        text-align: center;
+    }
+}
+@media screen and (min-width:652px){
+    #header nav ul li{
+        display: inline-block;
+        padding-right: 20px;
+    }
+    #header #login_button{
+        margin-right: 60px;
+    }
+}
+
+
+@media screen and (min-width:1000px){
+    #choice{
+        width: 500px;
+        left: 50%;
+        top: 25%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:652px){
+    #header nav ul li{
+        display: block;
+        padding-top: 20px;
+    }
+    #header nav ul li #home_button{
+        background-color: #0C90D0;
+        color: aliceblue;
+        border-radius: 40px;
+    }
+    #header #login_button{
+        margin-right: 5px;
+    }
+    #header nav ul li #home_button:hover{
+        color: aliceblue;
+        background-color: #007DBA;
+    }
+}

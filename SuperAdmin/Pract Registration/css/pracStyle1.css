@@ -1,0 +1,1006 @@
+@media only screen and (max-width: 1200px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #e7f5fc7a;
+        /* overflow-y: hidden; */
+    }
+    
+    header{
+        position: absolute;
+        z-index: 500;
+        align-items: center;
+        display: flex;
+    
+    }
+    header p{
+        font-size: 35px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: 'Quicksand Bold', arial;
+    }
+    .logo {
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+    }
+
+    main .right .pic .img{
+        font-size: 20px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    main {
+        margin-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    main .left {
+        max-height: 600px;    
+        flex-basis: 500px;
+        flex-shrink: 0; 
+    }
+    
+    main.left.down{
+        height: 450px;
+        background-size: cover;
+    }
+    
+    main .left .down img {
+        width:500px ;
+        height: 450px;
+        border-radius: 20px;
+    }
+    
+    main .left .doc {
+        margin-top: -590px;
+        margin-left: 30px;
+    }
+    
+    main .left .up {
+        max-height: 190px;
+        max-width: 500px;
+    }
+    main .left .up img {
+        width: 500px;
+    }
+    
+    main .right {
+        height: 600px;
+        margin-left: 60px;
+        margin-top: 30px;
+        flex-basis: auto;
+        flex-shrink: 0;
+        font-family: 'Quicksand Regular', arial;
+    }
+    
+    main .right p.reg{
+        font-size: 35px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial;
+        
+    }
+    
+    main .right .name .name, 
+    main .right .gender .gend, 
+    main .right .dateOf .dat,
+    main .right .phone .ph,
+    main .right .language .lang{
+        font-size: 20px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial;
+        margin-bottom: 15px;
+    }
+    main .right .name input{
+        margin-bottom: 20px;
+        height: 30px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-right: 45px;
+    }
+    main .right .name input:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    main .right .name input:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    main .right .name input::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 15px;
+    }
+    .gender input{
+        margin-right: 5px;
+    }
+    .gender label{
+        margin-right: 40px;
+        color: #252526f1;
+    }
+    
+    /*DateOfBirth*/
+    main .right .dateOf {
+        display: block;
+        padding-top: 15px;
+    }
+    main .right .dateOf input {
+    
+        border: 1px solid rgba(131, 137, 150, 0.562);
+        border-radius: 3px;
+        background-color: #fff;
+        padding: 5px 5px;
+        margin-right: 100px;
+        font-family: 'Quicksand Bold', arial;
+    
+    }
+    main .right .dateOf input:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    
+    /* Phone Number*/
+    
+    main .right .phone{
+        display: inline-block;
+        padding-top: 15px;
+    }
+    main .right .phone input{
+        margin-bottom: 20px;
+        height: 30px;
+        width: 250px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        padding-left: 50px;
+    
+    }
+    
+    main .right .phone input:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    main .right .phone input:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    main .right .phone input::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 15px;
+    }
+    
+    
+    /*Language*/
+    main .right .language{
+        padding-top: 15px;
+    
+    }
+    main .right .language input{
+        margin-bottom: 20px;
+        height: 30px;
+        width: 450px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+    
+    }
+    main .right .language select:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    
+    }
+    main .right .language select:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    main .right .language select::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 15px;
+    }
+    /*Next*/
+    .buttons{
+        display: flex;
+        margin-top: 25px;
+    }
+    .nextbutton button{
+        float: right;
+        background-image: linear-gradient(to right, #73DFE6FF,#11A9C6FF);;
+        color: floralwhite;
+        width: 80px;
+        height: 25px;
+        font-size: 15px;
+        font-family: 'Quicksand Bold', arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        left: 20px;
+        margin-left: 350px;
+    }
+    .nextbutton button:hover{
+        background-image: linear-gradient(to right, rgb(124, 230, 240),rgb(12, 202, 240));
+        cursor: pointer;
+    }
+    .out {
+        display: flex;
+        margin-top: -25px;
+    }
+    .backbutton{
+        margin-right: 600px;
+    }
+    .buttons.backbutton input{
+        float: left;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #e7f5fc7a;
+        /* overflow-y: hidden; */
+    }
+    
+    header{
+        position: absolute;
+        z-index: 500;
+        align-items: center;
+        display: flex;
+    
+    }
+    header p{
+        font-size: 35px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: 'Quicksand Bold', arial;
+    }
+    .logo {
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+    }
+
+    main .right .pic .img{
+        font-size: 20px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    main {
+        margin-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    main .left {
+        max-height: 600px;    
+        flex-basis: 450px;
+        flex-shrink: 0; 
+    }
+    
+    main.left.down{
+        height: 450px;
+        background-size: cover;
+    }
+    
+    main .left .down img {
+        width: 450px ;
+        height: 450px;
+        border-radius: 20px;
+    }
+
+    main .left .doc {
+        margin-top: -590px;
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    
+    main .left .up {
+        max-height: 190px;
+        max-width: 450px;
+    }
+    main .left .up img {
+        width: 450px;
+    }
+    
+    main .right {
+        height: 600px;
+        margin-left: 60px;
+        margin-top: 30px;
+        flex-basis: auto;
+        flex-shrink: 0;
+        font-family: 'Quicksand Regular', arial;
+    }
+    
+    main .right p.reg{
+        font-size: 35px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial;
+        
+    }
+    
+    main .right .name .name, 
+    main .right .gender .gend, 
+    main .right .dateOf .dat,
+    main .right .phone .ph,
+    main .right .language .lang{
+        font-size: 20px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial;
+        margin-bottom: 15px;
+    }
+    main .right .name input{
+        margin-bottom: 20px;
+        height: 30px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-right: 45px;
+    }
+    main .right .name input:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    main .right .name input:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    main .right .name input::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 15px;
+    }
+    .gender input{
+        margin-right: 5px;
+    }
+    .gender label{
+        margin-right: 40px;
+        color: #252526f1;
+    }
+    
+    /*DateOfBirth*/
+    main .right .dateOf {
+        display: block;
+        padding-top: 15px;
+    }
+    main .right .dateOf input {
+    
+        border: 1px solid rgba(131, 137, 150, 0.562);
+        border-radius: 3px;
+        background-color: #fff;
+        padding: 5px 5px;
+        margin-right: 100px;
+        font-family: 'Quicksand Bold', arial;
+    
+    }
+    main .right .dateOf input:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    
+    /* Phone Number*/
+    main .right .phone{
+        display: inline-block;
+        padding-top: 15px;
+    }
+    main .right .phone input{
+        margin-bottom: 20px;
+        height: 30px;
+        width: 250px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        padding-left: 50px;
+    
+    }
+    
+    main .right .phone input:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    main .right .phone input:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    main .right .phone input::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 15px;
+    }
+    
+    
+    /*Language*/
+    main .right .language{
+        padding-top: 15px;
+    
+    }
+    main .right .language input{
+        margin-bottom: 20px;
+        height: 30px;
+        width: 450px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+    
+    }
+    main .right .language select:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    
+    }
+    main .right .language select:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    main .right .language select::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 15px;
+    }
+    /*Next*/
+    .buttons{
+        display: flex;
+        margin-top: 25px;
+    }
+    .nextbutton button{
+        float: right;
+        background-image: linear-gradient(to right, #73DFE6FF,#11A9C6FF);;
+        color: floralwhite;
+        width: 80px;
+        height: 25px;
+        font-size: 15px;
+        font-family: 'Quicksand Bold', arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        left: 20px;
+        margin-left: 350px;
+    }
+    .nextbutton button:hover{
+        background-image: linear-gradient(to right, rgb(124, 230, 240),rgb(12, 202, 240));
+        cursor: pointer;
+    }
+    .backbutton{
+    
+      /* margin-right: 600px; */
+      margin-top: -23px;
+    }
+     .buttons.backbutton input{
+       float: left;
+    }
+}
+ /*992*/
+@media all and (max-width: 992px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #e7f5fc7a;
+
+    }
+
+    header{
+        position: absolute;
+        z-index: 500;
+        align-items: center;
+        display: flex;
+        width: 600px;
+        height: 100px;
+        background-image:url(../../../photos/up.png);
+        background-size: cover;
+
+    }
+    header p{
+        font-size: 20px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: 'Quicksand Bold', arial;
+    }
+    .logo {
+        width: 80px;
+        height: 80px;
+        margin-left: 7px;
+    }
+    main .right .pic .img{
+        font-size: 15px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    main {
+        margin-bottom: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main .left {
+        max-height: 600px;
+        /* max-width: 496px; */
+        flex-basis: 200px;
+        flex-shrink: 0;
+    }
+
+    main.left.down{
+        height: 450px;
+        background-size: cover;
+    }
+
+    main .left .down img {
+        width:400px ;
+        height: 450px;
+        border-radius: 20px;
+    }
+
+    main .left .doc {
+        margin-top: -590px;
+        margin-left: -15px;
+    }
+    /*POXEL EM*/
+    /* main .left .doc img{
+        width: 560px;
+        height: 500px;
+    } */
+
+    main .left .up {
+        max-height: 190px;
+    }
+    main .left .up img {
+        width: 400px;
+    }
+
+    main .right {
+        padding-top: 100px;
+        height: 600px;
+        margin-left: 0px; /* chaps@ ste poxel*/
+        margin-top: 10px;
+        flex-basis: auto;
+        flex-shrink: 0;
+        font-family: 'Quicksand Regular', arial;
+    }
+
+    main .right p.reg{
+        font-size: 25px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial;
+
+    }
+
+    main .right .name .name,
+    main .right .gender .gend,
+    main .right .dateOf .dat,
+    main .right .phone .ph,
+    main .right .language .lang{
+        font-size: 15px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial;
+        margin-bottom: 15px;
+    }
+    main .right .name input{
+        margin-bottom: 20px;
+        height: 30px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-right: 45px;
+    }
+    main .right .name input:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    main .right .name input:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    main .right .name input::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 14px;
+    }
+    .gender input{
+        margin-right: 5px;
+        margin-bottom: 25px; /**/
+    }
+    .gender label{
+        margin-right: 40px;
+        color: #252526f1;
+    }
+
+    /*DateOfBirth*/
+    main .right .dateOf {
+        display: block;
+        padding-top: 15px;
+    }
+    main .right .dateOf input {
+        height: 25px;
+        border: 1px solid rgba(131, 137, 150, 0.562);
+        border-radius: 3px;
+        background-color: #fff;
+        padding: 5px 5px;
+        margin-right: 20px;
+        font-family: 'Quicksand Bold', arial;
+        width: 150px;
+
+    }
+    main .right .dateOf input:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+        cursor:text;
+    }
+    main .right .dateOf input:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    main .right .dateOf input:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    main .right .dateOf input{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 14px;
+        color: rgb(54, 54, 54);
+    }
+    /* Phone Number*/
+
+    main .right .phone{
+        display: inline-block;
+        padding-top: 15px;
+    }
+    main .right .phone input{
+        margin-bottom: 20px;
+        height: 30px;
+        width: 250px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        padding-left: 50px;
+
+    }
+
+    main .right .phone input:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    main .right .phone input:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    main .right .phone input::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 15px;
+    }
+
+
+    /*Language*/
+    main .right .language{
+        padding-top: 15px;
+
+    }
+    main .right .language input{
+        margin-bottom: 20px;
+        height: 30px;
+        width: 450px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+
+    }
+    main .right .language select:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+
+    }
+    main .right .language select:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    main .right .language select::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 15px;
+    }
+    /*Next*/
+    .buttons{
+        /* margin-left: -200px; */
+        display: flex;
+        margin-top: 25px;
+        margin-right: 250px; /**/
+
+        /* justify-content: space-between; */
+    }
+    /* .button{ position: relative;} */
+    .nextbutton button{
+        /* margin-left: -100px; */
+        float: right;
+        background-image: linear-gradient(to right, #73DFE6FF,#11A9C6FF);;
+        color: floralwhite;
+        width: 70px;
+        height: 25px;
+        font-size: 14px;
+        font-family: 'Quicksand Bold', arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        /* left: 20px; */
+        bottom: -20px;
+
+        /* position: absolute; */
+
+
+    }
+    .nextbutton button:hover{
+        background-image: linear-gradient(to right, rgb(124, 230, 240),rgb(12, 202, 240));
+        cursor: pointer;
+    }
+    .backbutton{
+
+        margin-right: 200px;}
+    .buttons.backbutton input{
+        float: left;
+
+
+    }
+    
+}
+
+   
+/*772*/
+@media all and (max-width: 772px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    main .right .pic .img{
+        font-size: 15px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    main .left .up img{
+        width: 768px;
+        height: 90px;
+        object-fit: cover;
+    }
+    main {
+        margin-bottom: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main .left .down, .left .doc{
+        display: none;
+    }
+    main .left .up{
+        margin-top: 0px;
+        height: 30px;
+    }
+    /* main .left .up img{
+        margin-top: 0px;
+        height: 200px;
+    } */
+
+
+    main .right {
+        padding-top: 60px;
+        height: 600px;
+        margin-left: 30px;
+        margin-top: 10px;
+        flex-basis: auto;
+        flex-shrink: 0;
+        font-family: 'Quicksand Regular', arial;
+    }
+
+    main .right p.reg{
+        font-size: 25px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial;
+
+    }
+
+    main .right .name .name,
+    main .right .gender .gend,
+    main .right .dateOf .dat,
+    main .right .phone .ph,
+    main .right .language .lang{
+        font-size: 15px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial;
+        margin-bottom: 15px;
+    }
+    main .right .name input{
+        margin-bottom: 20px;
+        height: 30px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-right: 45px;
+    }
+    main .right .name input:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    main .right .name input:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    main .right .name input::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 14px;
+    }
+    .gender input{
+        margin-right: 5px;
+        margin-bottom: 25px; /**/
+    }
+    .gender label{
+        margin-right: 40px;
+        color: #252526f1;
+    }
+
+    /*DateOfBirth*/
+    main .right .dateOf {
+        display: block;
+        padding-top: 15px;
+    }
+    main .right .dateOf input {
+        height: 25px;
+        border: 1px solid rgba(131, 137, 150, 0.562);
+        border-radius: 3px;
+        background-color: #fff;
+        padding: 5px 5px;
+        margin-right: 20px;
+        font-family: 'Quicksand Bold', arial;
+        width: 150px;
+
+    }
+    main .right .dateOf input:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+        cursor:text;
+    }
+    main .right .dateOf input:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    main .right .dateOf input:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    main .right .dateOf input{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 14px;
+        color: rgb(54, 54, 54);
+    }
+    /* Phone Number*/
+
+    main .right .phone{
+        display: inline-block;
+        padding-top: 15px;
+    }
+    main .right .phone input{
+        margin-bottom: 20px;
+        height: 30px;
+        width: 250px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        padding-left: 50px;
+
+    }
+
+    main .right .phone input:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+    }
+    main .right .phone input:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    main .right .phone input::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 15px;
+    }
+
+
+    /*Language*/
+    main .right .language{
+        padding-top: 15px;
+
+    }
+    main .right .language input{
+        margin-bottom: 20px;
+        height: 30px;
+        width: 450px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+
+    }
+    main .right .language select:hover{
+        border: 0.5px solid rgb(115, 118, 122);
+
+    }
+    main .right .language select:focus{
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    main .right .language select::placeholder{
+        font-family: 'Quicksand Bold', arial;
+        font-size: 15px;
+    }
+    /*Next*/
+    .buttons{
+        /* margin-left: -200px; */
+        display: flex;
+        margin-top: 25px;
+        margin-right: 250px; /**/
+
+        /* justify-content: space-between; */
+    }
+    /* .button{ position: relative;} */
+    .nextbutton button{
+        /* margin-left: -100px; */
+        float: right;
+        background-image: linear-gradient(to right, #73DFE6FF,#11A9C6FF);;
+        color: floralwhite;
+        width: 70px;
+        height: 25px;
+        font-size: 14px;
+        font-family: 'Quicksand Bold', arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        /* left: 20px; */
+        bottom: -20px;
+
+        /* position: absolute; */
+
+
+    }
+    .nextbutton button:hover{
+        background-image: linear-gradient(to right, rgb(124, 230, 240),rgb(12, 202, 240));
+        cursor: pointer;
+    }
+    .backbutton{
+
+        margin-right: 480px;}
+    .buttons.backbutton input{
+        float: left;
+    }
+    /* .out {
+    display: flex;
+    margin-top: -25px;
+    margin-left: 400px;
+}.backbutton{
+  margin-right: 600px;}
+ .buttons.backbutton input{
+   float: left;
+} */
+
+    body{
+        background-color: #e7f5fc7a;
+        /* overflow-x: hidden; */
+    }
+
+    header{
+        position: absolute;
+        z-index: 500;
+        align-items: center;
+        display: flex;
+        width: 600px;
+        height: 100px;
+        background-image:url(../../../photos/up.png);
+        background-size: cover;
+
+    }
+    header p{
+        font-size: 20px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: 'Quicksand Bold', arial;
+    }
+    .logo {
+        width: 80px;
+        height: 80px;
+        margin-left: 7px;
+    }
+
+
+}
+

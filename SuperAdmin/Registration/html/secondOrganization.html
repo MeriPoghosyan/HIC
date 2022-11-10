@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyProject</title>
+    <link rel="stylesheet" href="../css/secondOrganization.css">
+</head>
+
+<body>
+<header>
+    <img class="logo" src="../../../photos/logo.png" alt="img">
+    <p>HIC</p>
+</header>
+<main>
+    <div class = "left">
+        <div class="pat"><img src="../../../photos/pattern.jpg" alt=""  ></div>
+        <div class="bl"> <img src="../../../photos/blue.jpg" alt=""></div>
+        <div class="doc"><img src="../../../photos/doctor.png" alt="" ></div>
+    </div>
+    <form action="lastRegister.html">
+        <div class="right">
+            <p class="reg">Registration</p>
+            <div class="name">
+                <p class="name">Organization Name </p>
+                <input type="text" id="Org_name" name = "name" required placeholder="Organization Name" size="55px">
+            </div>
+            <div class="adr">
+                <p class="p_adr">Organization Adress</p>
+            </div>
+            <div >
+                <label id="country">Country</label>
+                <input  id="country1" type="text" name = "country" required placeholder="Country"  size="42px">
+            </div>
+            <div id="div_city" >
+                <label id="city">City</label>
+                <input class="validate"  id = "city1" type="text" name = "city" required placeholder="City"  size="42px">
+            </div>
+            <div id="div_state" >
+                <label id="state">State</label>
+                <input class="validate"  id = "state1" type="text" name = "state" required placeholder="State"  size="42px">
+            </div>
+            <div id="div_district" >
+                <label id="district">District</label>
+                <input class="validate"  id = "district1" type="text" name = "district" required placeholder="District"  size="42px">
+            </div>
+            <div id="div_street" >
+                <label id="street">Street</label>
+                <input class="validate"  id = "street1" type="text" name = "street" required placeholder="Street"  size="42px">
+            </div>
+            <div id="div_Postal" >
+                <label id="postal">Postal Code</label>
+                <input class="validate"  id = "postal1"  onkeypress="return validateNumber(event)" type="text" name = "postal" required placeholder="Postal Code"  size="42px">
+            </div>
+
+        </div>
+        <div class="button">
+            <button>Next</button>
+        </div>
+
+        </div>
+    </form>
+    <a href="../html/firstRegister.html ">
+    <div class="button_div3">
+        <input class="button3" type="image" src="../../../photos/left-chevron.png">
+    </div>
+    </a>
+</main>
+<script src="../js/second.Org.data.js"></script>
+<script src="../js/Next.Organization.js"></script>
+<script src="../js/SEC.ORG.Postal.js"></script>
+</body>
+</html>

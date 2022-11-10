@@ -1,0 +1,532 @@
+@media only screen and (min-width: 1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-size: cover;
+        background-image: url("../../../photos/bgwhite.jpeg");
+        background-repeat: no-repeat;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    header {
+        position: absolute;
+        z-index: 500;
+        align-items: center;
+        display: flex;
+    }
+    header p {
+        font-size: 35px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: Quicksand Regular, arial, serif;
+    }
+    .logo {
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+    }
+    main {
+        margin-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main .photos {
+        max-height: 600px;
+        flex-basis: 500px;
+        flex-shrink: 0;
+    }
+    main .photos .pat {
+        max-height: 130px;
+        max-width: 450px;
+    }
+    main .photos .pat img {
+        width: 500px;
+    }
+    main .photos .bl {
+        height: 450px;
+        background-size: cover;
+    }
+    main .photos .bl img {
+        width: 500px;
+        height: 400px;
+        margin-top: 60px;
+        border-radius: 20px;
+    }
+    main .photos .doc {
+        margin-top: -505px;
+        margin-left: -45px;
+    }
+    main .texts {
+        height: 600px;
+        margin-left: 25px;
+        margin-top: 30px;
+        flex-basis: auto;
+        flex-shrink: 0;
+        flex-grow: 1;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+    main .texts h1 {
+        margin-right: 250px;
+        margin-left: -20px;
+        margin-top: 20px;
+        font-size: 33px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+    main .texts .username {
+        font-size: 20px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+        margin-bottom: 100px;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    main .texts .username input {
+        margin-bottom: 50px;
+        width: 240px;
+        height: 35px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-right: 20px;
+    }
+    .button {
+        position: relative;
+    }
+    button {
+        float: right;
+        background-image: linear-gradient(to right, #73DFE6FF, #11A9C6FF);
+        color: floralwhite;
+        width: 120px;
+        height: 25px;
+        font-size: 15px;
+        font-family: Quicksand Regular, arial, serif;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        position: absolute;
+        left: 90px;
+        top: -110px;
+    }
+    button:hover {
+        background-color: #0C90D0;
+        cursor: pointer;
+    }
+    main :focus {
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    main .texts .reglink {
+        font-size: 12px;
+        font-family: 'Quicksand Regular', arial, serif;
+        margin-left: 90px;
+        margin-top: -75px;
+    }
+    a:active {
+        color: #0C90D0;
+    }
+    a:visited {
+        color: #0C90D0;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-size: cover;
+        background-image: url("../../../photos/bgwhite.jpeg");
+        background-repeat: no-repeat;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    header {
+        position: absolute;
+        z-index: 500;
+        align-items: center;
+        display: flex;
+    }
+    header p {
+        font-size: 35px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: Quicksand Regular, arial, serif;
+    }
+    .logo {
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+    }
+    main {
+        margin-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main .photos {
+        max-height: 600px;
+        flex-basis: 500px;
+        flex-shrink: 0;
+    }
+    main .photos .pat {
+        max-height: 130px;
+        max-width: 450px;
+    }
+    main .photos .pat img {
+        width: 500px;
+    }
+    main .photos .bl {
+        height: 450px;
+        background-size: cover;
+    }
+    main .photos .bl img {
+        width: 500px;
+        height: 372px;
+        margin-top: 60px;
+        border-radius: 20px;
+    }
+    main .photos .doc {
+        margin-top: -515px;
+        margin-left: -45px;
+    }
+    main .texts {
+        height: 500px;
+        width: 440px;
+        margin-left: 25px;
+        margin-top: 30px;
+        flex-basis: auto;
+        flex-shrink: 0;
+        flex-grow: 1;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+    main .texts h1 {
+        margin-right: 250px;
+        margin-left: -20px;
+        margin-top: 20px;
+        width: 100%;
+        font-size: 33px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+    main .texts .username {
+        font-size: 20px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+        margin-bottom: 100px;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    main .texts .username input {
+        margin-bottom: 50px;
+        width: 240px;
+        height: 35px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-right: 20px;
+    }
+    .button {
+        position: relative;
+    }
+    button {
+        float: right;
+        background-image: linear-gradient(to right, #73DFE6FF, #11A9C6FF);
+        color: floralwhite;
+        width: 120px;
+        height: 25px;
+        font-size: 15px;
+        font-family: Quicksand Regular, arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        position: absolute;
+        left: 90px;
+        top: -110px;
+    }
+    button:hover {
+        background-color: #0C90D0;
+        cursor: pointer;
+    }
+    main :focus {
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    main .texts .reglink {
+        font-size: 12px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+        margin-left: 90px;
+        margin-top: -75px;
+    }
+    a:active {
+        color: #0C90D0;
+    }
+    a:visited {
+        color: #0C90D0;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-size: cover;
+        background-image: url("../../../photos/whitebg.jpg");
+        background-repeat: no-repeat;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    header {
+        position: absolute;
+        z-index: 500;
+        align-items: center;
+        display: flex;
+        width: 992px;
+        height: 80px;
+    }
+    header p {
+        font-size: 20px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: Quicksand Regular, arial, serif;
+    }
+    .logo {
+        width: 80px;
+        height: 80px;
+        margin-left: 7px;
+    }
+    main {
+        margin-bottom: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main .photos {
+        max-height: 300px;
+        flex-basis: 600px;
+    }
+    main .photos .pat {
+        max-height: 110px;
+        max-width: 300px;
+    }
+    main .photos .pat img {
+        max-width: 380px;
+        width: 500px;
+    }
+    main .photos .bl {
+        height: 300px;
+        background-size: cover;
+    }
+    main .photos .bl img {
+        width: 380px;
+        height: 400px;
+        margin-top: 55px;
+        border-radius: 20px;
+    }
+    main .photos .doc {
+        width: 580px;
+        height: 595px;
+        margin-top: -400px;
+        margin-left: -83px;
+    }
+    main .photos .doc img {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    }
+    main .texts {
+        height: 600px;
+        margin-left: 350px;
+        margin-bottom: 100px;
+        flex-basis: 400px;
+        flex-shrink: 0;
+        flex-grow: 1;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+    main .texts h1 {
+        margin-right: 10px;
+        margin-left: 70px;
+        margin-top: -250px;
+        font-size: 33px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+    main .texts .username {
+        font-size: 20px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+        margin-bottom: 100px;
+        margin-left: 125px;
+        margin-top: 80px;
+    }
+    main .texts .username input {
+        margin-bottom: 50px;
+        width: 240px;
+        height: 35px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-right: 20px;
+    }
+    .button {
+        position: relative;
+    }
+    button {
+        float: right;
+        background-image: linear-gradient(to right, #73DFE6FF, #11A9C6FF);
+        color: floralwhite;
+        width: 120px;
+        height: 25px;
+        font-size: 15px;
+        font-family: Quicksand Regular, arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        position: absolute;
+        left: 175px;
+        top: -110px;
+    }
+    button:hover {
+        background-color: #0C90D0;
+        cursor: pointer;
+    }
+    main :focus {
+        outline: 0.2px solid #11a8ce62;
+        border: 1px solid rgb(82, 112, 151);
+    }
+    main .texts .reglink {
+        font-size: 12px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+        margin-left: 170px;
+        margin-top: -75px;
+    }
+    a:active {
+        color: #0C90D0;
+    }
+    a:visited {
+        color: #0C90D0;
+    }
+}
+
+@media only screen and (max-width: 772px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-size: cover;
+        background-image: url("../../../photos/whitebg.jpg");
+        background-repeat: no-repeat;
+    }
+    main {
+        margin-bottom: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main .photos {
+        display: none;
+    }
+    header {
+        position: absolute;
+        z-index: 500;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        height: 100px;
+        background-image: url(../css/../../../photos/pattern.jpg);
+        object-fit: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    header p {
+        font-size: 20px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: Quicksand Regular, arial, serif;
+    }
+    .logo {
+        width: 80px;
+        height: 80px;
+        margin-left: 7px;
+    }
+    main .texts {
+        padding-top: 100px;
+        height: 600px;
+        margin-left: 30px;
+        margin-bottom: 100px;
+        flex-basis: auto;
+        flex-shrink: 0;
+        flex-grow: 1;
+        font-family: 'Quicksand Regular', arial, serif;
+    }
+    main .texts h1 {
+        font-size: 30px;
+        font-weight: bold;
+        color: #0C90D0;
+        font-family: Quicksand Regular, arial, serif;
+        margin-left: 90px;
+        margin-top: 60px;
+    }
+    main .texts .username {
+        font-size: 20px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+        margin-bottom: 100px;
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+    main .texts .username input {
+        margin-bottom: 50px;
+        width: 240px;
+        height: 35px;
+        padding: 5px 5px;
+        border: 1px solid #838996FF;
+        border-radius: 3px;
+        margin-right: 20px;
+    }
+    .button {
+        position: relative;
+    }
+    button {
+        float: right;
+        background-image: linear-gradient(to right, #73DFE6FF, #11A9C6FF);
+        ;
+        color: floralwhite;
+        width: 80px;
+        height: 25px;
+        font-size: 15px;
+        font-family: 'Quicksand Bold', arial;
+        outline: 0;
+        border: 0;
+        border-radius: 18px;
+        left: 20px;
+        margin-left: 150px;
+        margin-top: -25px;
+    }
+    button:hover {
+        background-color: #2db9ff;
+        cursor: pointer;
+    }
+    main .texts .reglink {
+        font-size: 11px;
+        color: #0C90D0;
+        font-family: 'Quicksand Regular', arial, serif;
+        margin-left: 150px;
+        margin-top: -105px;
+    }
+    a:active {
+        color: #0C90D0;
+    }
+    a:visited {
+        color: #0C90D0;
+    }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HIC</title>
+    <link href="../css/practitioner_login.css" rel="stylesheet">
+    <script src="../js/practitioner_login.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+<div id="body">
+
+    <div id="header">
+        <img class="logo" src="../../../photos/logo.png" alt="img">
+        <h1>HIC</h1>
+    </div>
+
+    <div id="left_side">
+        <div id="pattern">
+        </div>
+        <div id="for_button">
+            <div id="gradient">
+            </div>
+            <div id="back"><a href="../../../Main/html/Main%20Practitioner.html"><img
+                    src="../../../photos/back.png" alt="Back"></a></div>
+        </div>
+        <div id="girl">
+        </div>
+
+    </div>
+
+    <div id="right_side">
+        <h1>Login to Your Account</h1>
+        <div id="container">
+            <form onsubmit="ocPostInfo()">
+                <label for="uname">Username/Email</label>
+                <input type="text" id="uname" name="username" required>
+
+                <label for="psw">Password</label>
+                <div id="visibility">
+                    <input type="password" id="psw" name="password" required>
+                    <span>
+                        <i class="fa fa-eye fa-lg" aria-hidden="true" id="eye" onclick="toggle()"></i>
+                    </span>
+                </div>
+                <button type="submit">Login</button>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
